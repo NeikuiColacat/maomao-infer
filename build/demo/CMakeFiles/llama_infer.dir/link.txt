@@ -1,0 +1,1 @@
+/usr/bin/g++ -g CMakeFiles/llama_infer.dir/main.cpp.o -o llama_infer   -L/home/colacat/KuiperLLama/lib  -L/usr/local/cuda/lib64  -Wl,-rpath,/home/colacat/KuiperLLama/lib:/usr/local/cuda/lib64:/usr/local/lib ../../lib/libllama.so -lsentencepiece /usr/local/lib/libglog.so.0.8.0 -lgtest -lgtest_main -lpthread -lcudart -larmadillo 

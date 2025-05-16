@@ -1,0 +1,292 @@
+[
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -I/usr/local/cuda/include -g -fPIC -std=gnu++17 -o CMakeFiles/llama.dir/kuiper/source/tensor/tensor.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/tensor/tensor.cpp",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/tensor/tensor.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -I/usr/local/cuda/include -g -fPIC -std=gnu++17 -o CMakeFiles/llama.dir/kuiper/source/base/alloc.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/base/alloc.cpp",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/base/alloc.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -I/usr/local/cuda/include -g -fPIC -std=gnu++17 -o CMakeFiles/llama.dir/kuiper/source/base/alloc_cpu.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/base/alloc_cpu.cpp",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/base/alloc_cpu.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -I/usr/local/cuda/include -g -fPIC -std=gnu++17 -o CMakeFiles/llama.dir/kuiper/source/base/alloc_cu.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/base/alloc_cu.cpp",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/base/alloc_cu.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -I/usr/local/cuda/include -g -fPIC -std=gnu++17 -o CMakeFiles/llama.dir/kuiper/source/base/base.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/base/base.cpp",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/base/base.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -I/usr/local/cuda/include -g -fPIC -std=gnu++17 -o CMakeFiles/llama.dir/kuiper/source/base/buffer.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/base/buffer.cpp",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/base/buffer.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -I/usr/local/cuda/include -g -fPIC -std=gnu++17 -o CMakeFiles/llama.dir/kuiper/source/base/unicode-data.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/base/unicode-data.cpp",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/base/unicode-data.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -I/usr/local/cuda/include -g -fPIC -std=gnu++17 -o CMakeFiles/llama.dir/kuiper/source/base/unicode.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/base/unicode.cpp",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/base/unicode.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -I/usr/local/cuda/include -g -fPIC -std=gnu++17 -o CMakeFiles/llama.dir/kuiper/source/op/add.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/add.cpp",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/op/add.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -I/usr/local/cuda/include -g -fPIC -std=gnu++17 -o CMakeFiles/llama.dir/kuiper/source/op/embedding.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/embedding.cpp",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/op/embedding.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -I/usr/local/cuda/include -g -fPIC -std=gnu++17 -o CMakeFiles/llama.dir/kuiper/source/op/encode.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/encode.cpp",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/op/encode.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -I/usr/local/cuda/include -g -fPIC -std=gnu++17 -o CMakeFiles/llama.dir/kuiper/source/op/layer.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/layer.cpp",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/op/layer.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -I/usr/local/cuda/include -g -fPIC -std=gnu++17 -o CMakeFiles/llama.dir/kuiper/source/op/matmul.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/matmul.cpp",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/op/matmul.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -I/usr/local/cuda/include -g -fPIC -std=gnu++17 -o CMakeFiles/llama.dir/kuiper/source/op/mha.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/mha.cpp",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/op/mha.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -I/usr/local/cuda/include -g -fPIC -std=gnu++17 -o CMakeFiles/llama.dir/kuiper/source/op/rmsnorm.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/rmsnorm.cpp",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/op/rmsnorm.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -I/usr/local/cuda/include -g -fPIC -std=gnu++17 -o CMakeFiles/llama.dir/kuiper/source/op/rope.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/rope.cpp",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/op/rope.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -I/usr/local/cuda/include -g -fPIC -std=gnu++17 -o CMakeFiles/llama.dir/kuiper/source/op/swiglu.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/swiglu.cpp",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/op/swiglu.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -I/usr/local/cuda/include -g -fPIC -std=gnu++17 -o CMakeFiles/llama.dir/kuiper/source/op/kernels/kernels_interfaces.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/kernels/kernels_interfaces.cpp",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/op/kernels/kernels_interfaces.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -I/usr/local/cuda/include -g -fPIC -std=gnu++17 -o CMakeFiles/llama.dir/kuiper/source/model/llama3.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/model/llama3.cpp",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/model/llama3.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -I/usr/local/cuda/include -g -fPIC -std=gnu++17 -o CMakeFiles/llama.dir/kuiper/source/model/model.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/model/model.cpp",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/model/model.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -I/usr/local/cuda/include -g -fPIC -std=gnu++17 -o CMakeFiles/llama.dir/kuiper/source/model/qwen2.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/model/qwen2.cpp",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/model/qwen2.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -I/usr/local/cuda/include -g -fPIC -std=gnu++17 -o CMakeFiles/llama.dir/kuiper/source/model/raw_model_data.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/model/raw_model_data.cpp",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/model/raw_model_data.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -I/usr/local/cuda/include -g -fPIC -std=gnu++17 -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/add_kernel.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/add_kernel.cpp",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/add_kernel.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -I/usr/local/cuda/include -g -fPIC -std=gnu++17 -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/emb_kernel.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/emb_kernel.cpp",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/emb_kernel.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -I/usr/local/cuda/include -g -fPIC -std=gnu++17 -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/matmul_kernel.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/matmul_kernel.cpp",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/matmul_kernel.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -I/usr/local/cuda/include -g -fPIC -std=gnu++17 -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/mha_kernel.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/mha_kernel.cpp",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/mha_kernel.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -I/usr/local/cuda/include -g -fPIC -std=gnu++17 -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rmsnorm_kernel.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/rmsnorm_kernel.cpp",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/rmsnorm_kernel.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -I/usr/local/cuda/include -g -fPIC -std=gnu++17 -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rope_kernel.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/rope_kernel.cpp",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/rope_kernel.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -I/usr/local/cuda/include -g -fPIC -std=gnu++17 -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_kernel.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/scale_kernel.cpp",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/scale_kernel.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -I/usr/local/cuda/include -g -fPIC -std=gnu++17 -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_sum_kernel.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/scale_sum_kernel.cpp",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/scale_sum_kernel.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -I/usr/local/cuda/include -g -fPIC -std=gnu++17 -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/softmax_kernel.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/softmax_kernel.cpp",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/softmax_kernel.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -I/usr/local/cuda/include -g -fPIC -std=gnu++17 -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/swiglu_kernel.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/swiglu_kernel.cpp",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/swiglu_kernel.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -g --generate-code=arch=compute_86,code=[compute_86,sm_86] -Xcompiler=-fPIC -std=c++14 -x cu -dc /home/colacat/KuiperLLama/kuiper/source/op/kernels/cuda/add_kernel.cu -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/add_kernel.cu.o",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/op/kernels/cuda/add_kernel.cu"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -g --generate-code=arch=compute_86,code=[compute_86,sm_86] -Xcompiler=-fPIC -std=c++14 -x cu -dc /home/colacat/KuiperLLama/kuiper/source/op/kernels/cuda/argmax_kernel.cu -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/argmax_kernel.cu.o",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/op/kernels/cuda/argmax_kernel.cu"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -g --generate-code=arch=compute_86,code=[compute_86,sm_86] -Xcompiler=-fPIC -std=c++14 -x cu -dc /home/colacat/KuiperLLama/kuiper/source/op/kernels/cuda/emb_kernel.cu -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/emb_kernel.cu.o",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/op/kernels/cuda/emb_kernel.cu"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -g --generate-code=arch=compute_86,code=[compute_86,sm_86] -Xcompiler=-fPIC -std=c++14 -x cu -dc /home/colacat/KuiperLLama/kuiper/source/op/kernels/cuda/matmul_kernel.cu -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/matmul_kernel.cu.o",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/op/kernels/cuda/matmul_kernel.cu"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -g --generate-code=arch=compute_86,code=[compute_86,sm_86] -Xcompiler=-fPIC -std=c++14 -x cu -dc /home/colacat/KuiperLLama/kuiper/source/op/kernels/cuda/mha_kernel.cu -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/mha_kernel.cu.o",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/op/kernels/cuda/mha_kernel.cu"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -g --generate-code=arch=compute_86,code=[compute_86,sm_86] -Xcompiler=-fPIC -std=c++14 -x cu -dc /home/colacat/KuiperLLama/kuiper/source/op/kernels/cuda/rmsnorm_kernel.cu -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/rmsnorm_kernel.cu.o",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/op/kernels/cuda/rmsnorm_kernel.cu"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -g --generate-code=arch=compute_86,code=[compute_86,sm_86] -Xcompiler=-fPIC -std=c++14 -x cu -dc /home/colacat/KuiperLLama/kuiper/source/op/kernels/cuda/rope_kernel.cu -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/rope_kernel.cu.o",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/op/kernels/cuda/rope_kernel.cu"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -g --generate-code=arch=compute_86,code=[compute_86,sm_86] -Xcompiler=-fPIC -std=c++14 -x cu -dc /home/colacat/KuiperLLama/kuiper/source/op/kernels/cuda/swiglu_kernel.cu -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/swiglu_kernel.cu.o",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/op/kernels/cuda/swiglu_kernel.cu"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -Dllama_EXPORTS -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -I/usr/local/cuda/include -g -fPIC -std=gnu++17 -o CMakeFiles/llama.dir/kuiper/source/sampler/argmax_sampler.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/sampler/argmax_sampler.cpp",
+  "file": "/home/colacat/KuiperLLama/kuiper/source/sampler/argmax_sampler.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build/test",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -I/home/colacat/KuiperLLama/test/../kuiper/include -I/usr/local/cuda/include -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -g -std=gnu++17 -o CMakeFiles/test_llm.dir/test_main.cpp.o -c /home/colacat/KuiperLLama/test/test_main.cpp",
+  "file": "/home/colacat/KuiperLLama/test/test_main.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build/test",
+  "command": "/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler -DGLOG_USE_GLOG_EXPORT -I/home/colacat/KuiperLLama/test/../kuiper/include -I/home/colacat/KuiperLLama/kuiper/include -g --generate-code=arch=compute_86,code=[compute_86,sm_86] -std=c++14 -x cu -dc /home/colacat/KuiperLLama/test/utils.cu -o CMakeFiles/test_llm.dir/utils.cu.o",
+  "file": "/home/colacat/KuiperLLama/test/utils.cu"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build/test",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -I/home/colacat/KuiperLLama/test/../kuiper/include -I/usr/local/cuda/include -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -g -std=gnu++17 -o CMakeFiles/test_llm.dir/test_cu/test_cu_wrap.cpp.o -c /home/colacat/KuiperLLama/test/test_cu/test_cu_wrap.cpp",
+  "file": "/home/colacat/KuiperLLama/test/test_cu/test_cu_wrap.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build/test",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -I/home/colacat/KuiperLLama/test/../kuiper/include -I/usr/local/cuda/include -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -g -std=gnu++17 -o CMakeFiles/test_llm.dir/test_op/test_cu_add.cpp.o -c /home/colacat/KuiperLLama/test/test_op/test_cu_add.cpp",
+  "file": "/home/colacat/KuiperLLama/test/test_op/test_cu_add.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build/test",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -I/home/colacat/KuiperLLama/test/../kuiper/include -I/usr/local/cuda/include -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -g -std=gnu++17 -o CMakeFiles/test_llm.dir/test_op/test_cu_emb.cpp.o -c /home/colacat/KuiperLLama/test/test_op/test_cu_emb.cpp",
+  "file": "/home/colacat/KuiperLLama/test/test_op/test_cu_emb.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build/test",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -I/home/colacat/KuiperLLama/test/../kuiper/include -I/usr/local/cuda/include -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -g -std=gnu++17 -o CMakeFiles/test_llm.dir/test_op/test_cu_matmul.cpp.o -c /home/colacat/KuiperLLama/test/test_op/test_cu_matmul.cpp",
+  "file": "/home/colacat/KuiperLLama/test/test_op/test_cu_matmul.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build/test",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -I/home/colacat/KuiperLLama/test/../kuiper/include -I/usr/local/cuda/include -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -g -std=gnu++17 -o CMakeFiles/test_llm.dir/test_op/test_cu_rmsnorm.cpp.o -c /home/colacat/KuiperLLama/test/test_op/test_cu_rmsnorm.cpp",
+  "file": "/home/colacat/KuiperLLama/test/test_op/test_cu_rmsnorm.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build/test",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -I/home/colacat/KuiperLLama/test/../kuiper/include -I/usr/local/cuda/include -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -g -std=gnu++17 -o CMakeFiles/test_llm.dir/test_op/test_cu_rope.cpp.o -c /home/colacat/KuiperLLama/test/test_op/test_cu_rope.cpp",
+  "file": "/home/colacat/KuiperLLama/test/test_op/test_cu_rope.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build/test",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -I/home/colacat/KuiperLLama/test/../kuiper/include -I/usr/local/cuda/include -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -g -std=gnu++17 -o CMakeFiles/test_llm.dir/test_op/test_cu_scale.cpp.o -c /home/colacat/KuiperLLama/test/test_op/test_cu_scale.cpp",
+  "file": "/home/colacat/KuiperLLama/test/test_op/test_cu_scale.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build/test",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -I/home/colacat/KuiperLLama/test/../kuiper/include -I/usr/local/cuda/include -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -g -std=gnu++17 -o CMakeFiles/test_llm.dir/test_op/test_cu_softmax.cpp.o -c /home/colacat/KuiperLLama/test/test_op/test_cu_softmax.cpp",
+  "file": "/home/colacat/KuiperLLama/test/test_op/test_cu_softmax.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build/test",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -I/home/colacat/KuiperLLama/test/../kuiper/include -I/usr/local/cuda/include -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -g -std=gnu++17 -o CMakeFiles/test_llm.dir/test_op/test_cu_swiglu.cpp.o -c /home/colacat/KuiperLLama/test/test_op/test_cu_swiglu.cpp",
+  "file": "/home/colacat/KuiperLLama/test/test_op/test_cu_swiglu.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build/test",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -I/home/colacat/KuiperLLama/test/../kuiper/include -I/usr/local/cuda/include -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -g -std=gnu++17 -o CMakeFiles/test_llm.dir/test_op/test_load.cpp.o -c /home/colacat/KuiperLLama/test/test_op/test_load.cpp",
+  "file": "/home/colacat/KuiperLLama/test/test_op/test_load.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build/test",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -I/home/colacat/KuiperLLama/test/../kuiper/include -I/usr/local/cuda/include -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -g -std=gnu++17 -o CMakeFiles/test_llm.dir/optimized/test_allocator.cpp.o -c /home/colacat/KuiperLLama/test/optimized/test_allocator.cpp",
+  "file": "/home/colacat/KuiperLLama/test/optimized/test_allocator.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build/test",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -I/home/colacat/KuiperLLama/test/../kuiper/include -I/usr/local/cuda/include -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -g -std=gnu++17 -o CMakeFiles/test_llm.dir/test_tensor/test_buffer.cpp.o -c /home/colacat/KuiperLLama/test/test_tensor/test_buffer.cpp",
+  "file": "/home/colacat/KuiperLLama/test/test_tensor/test_buffer.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build/test",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -I/home/colacat/KuiperLLama/test/../kuiper/include -I/usr/local/cuda/include -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -g -std=gnu++17 -o CMakeFiles/test_llm.dir/test_tensor/test_tensor.cpp.o -c /home/colacat/KuiperLLama/test/test_tensor/test_tensor.cpp",
+  "file": "/home/colacat/KuiperLLama/test/test_tensor/test_tensor.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build/test",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -I/home/colacat/KuiperLLama/test/../kuiper/include -I/usr/local/cuda/include -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -g -std=gnu++17 -o CMakeFiles/test_llm.dir/test_model/test_llama_cpu.cpp.o -c /home/colacat/KuiperLLama/test/test_model/test_llama_cpu.cpp",
+  "file": "/home/colacat/KuiperLLama/test/test_model/test_llama_cpu.cpp"
+},
+{
+  "directory": "/home/colacat/KuiperLLama/build/demo",
+  "command": "/usr/bin/g++ -DGLOG_USE_GLOG_EXPORT -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include -g -std=gnu++17 -o CMakeFiles/llama_infer.dir/main.cpp.o -c /home/colacat/KuiperLLama/demo/main.cpp",
+  "file": "/home/colacat/KuiperLLama/demo/main.cpp"
+}
+]
