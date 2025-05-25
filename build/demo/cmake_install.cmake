@@ -1,4 +1,4 @@
-# Install script for directory: /home/colacat/KuiperLLama/demo
+# Install script for directory: /home/colacat/maomao_infer/demo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

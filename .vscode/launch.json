@@ -29,7 +29,7 @@
             "name": "debug llm",
             "type": "lldb",
             "request": "launch",
-            "program": "${workspaceFolder}/build/demo/llma_infer",  // 可执行文件路径
+            "program": "${workspaceFolder}/build/demo/llama_infer",  // 可执行文件路径
             "args": [],  // 可选参数
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",

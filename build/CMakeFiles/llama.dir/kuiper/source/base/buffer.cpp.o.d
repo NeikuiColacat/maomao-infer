@@ -1,7 +1,7 @@
 CMakeFiles/llama.dir/kuiper/source/base/buffer.cpp.o: \
- /home/colacat/KuiperLLama/kuiper/source/base/buffer.cpp \
+ /home/colacat/maomao_infer/kuiper/source/base/buffer.cpp \
  /usr/include/stdc-predef.h \
- /home/colacat/KuiperLLama/kuiper/include/base/buffer.h \
+ /home/colacat/maomao_infer/kuiper/include/base/buffer.h \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -117,13 +117,13 @@ CMakeFiles/llama.dir/kuiper/source/base/buffer.cpp.o: \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h \
- /home/colacat/KuiperLLama/kuiper/include/base/alloc.h \
+ /home/colacat/maomao_infer/kuiper/include/base/alloc.h \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/node_handle.h \
  /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/colacat/KuiperLLama/kuiper/include/base/base.h \
+ /home/colacat/maomao_infer/kuiper/include/base/base.h \
  /usr/local/include/glog/logging.h /usr/include/c++/11/atomic \
  /usr/include/c++/11/cerrno /usr/include/errno.h \
  /usr/include/x86_64-linux-gnu/bits/errno.h /usr/include/linux/errno.h \

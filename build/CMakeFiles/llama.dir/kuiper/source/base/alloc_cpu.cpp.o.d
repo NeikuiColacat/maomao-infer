@@ -1,5 +1,5 @@
 CMakeFiles/llama.dir/kuiper/source/base/alloc_cpu.cpp.o: \
- /home/colacat/KuiperLLama/kuiper/source/base/alloc_cpu.cpp \
+ /home/colacat/maomao_infer/kuiper/source/base/alloc_cpu.cpp \
  /usr/include/stdc-predef.h /usr/local/include/glog/logging.h \
  /usr/include/c++/11/atomic /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -180,10 +180,10 @@ CMakeFiles/llama.dir/kuiper/source/base/alloc_cpu.cpp.o: \
  /usr/local/include/glog/flags.h /usr/local/include/glog/platform.h \
  /usr/local/include/glog/types.h /usr/local/include/glog/log_severity.h \
  /usr/local/include/glog/vlog_is_on.h \
- /home/colacat/KuiperLLama/kuiper/include/base/alloc.h \
+ /home/colacat/maomao_infer/kuiper/include/base/alloc.h \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/node_handle.h \
  /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/colacat/KuiperLLama/kuiper/include/base/base.h
+ /home/colacat/maomao_infer/kuiper/include/base/base.h

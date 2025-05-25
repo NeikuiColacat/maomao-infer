@@ -1,7 +1,7 @@
 CMakeFiles/llama.dir/kuiper/source/base/unicode.cpp.o: \
- /home/colacat/KuiperLLama/kuiper/source/base/unicode.cpp \
+ /home/colacat/maomao_infer/kuiper/source/base/unicode.cpp \
  /usr/include/stdc-predef.h \
- /home/colacat/KuiperLLama/kuiper/include/base/unicode.h \
+ /home/colacat/maomao_infer/kuiper/include/base/unicode.h \
  /usr/include/c++/11/cstdint \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -132,7 +132,7 @@ CMakeFiles/llama.dir/kuiper/source/base/unicode.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/colacat/KuiperLLama/kuiper/include/base/unicode-data.h \
+ /home/colacat/maomao_infer/kuiper/include/base/unicode-data.h \
  /usr/include/c++/11/unordered_map \
  /usr/include/c++/11/ext/aligned_buffer.h \
  /usr/include/c++/11/bits/hashtable.h \

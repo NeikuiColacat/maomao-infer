@@ -1,8 +1,8 @@
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/mha_kernel.cpp.o: \
- /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/mha_kernel.cpp \
+ /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/mha_kernel.cpp \
  /usr/include/stdc-predef.h \
- /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/../cpu/mha_kernel.h \
- /home/colacat/KuiperLLama/kuiper/include/base/cuda_config.h \
+ /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/../cpu/mha_kernel.h \
+ /home/colacat/maomao_infer/kuiper/include/base/cuda_config.h \
  /usr/local/cuda/include/cublas_v2.h /usr/local/cuda/include/cublas_api.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -124,7 +124,7 @@ CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/mha_kernel.cpp.o: \
  /usr/local/cuda/include/cuda_bf16.hpp \
  /usr/local/cuda/include/library_types.h \
  /usr/local/cuda/include/cuda_runtime_api.h \
- /home/colacat/KuiperLLama/kuiper/include/base/base.h \
+ /home/colacat/maomao_infer/kuiper/include/base/base.h \
  /usr/local/include/glog/logging.h /usr/include/c++/11/atomic \
  /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
@@ -236,7 +236,7 @@ CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/mha_kernel.cpp.o: \
  /usr/local/include/glog/flags.h /usr/local/include/glog/platform.h \
  /usr/local/include/glog/types.h /usr/local/include/glog/log_severity.h \
  /usr/local/include/glog/vlog_is_on.h \
- /home/colacat/KuiperLLama/kuiper/include/tensor/tensor.h \
+ /home/colacat/maomao_infer/kuiper/include/tensor/tensor.h \
  /usr/local/cuda/include/driver_types.h /usr/include/armadillo \
  /usr/include/armadillo_bits/config.hpp \
  /usr/include/armadillo_bits/compiler_check.hpp \
@@ -909,7 +909,7 @@ CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/mha_kernel.cpp.o: \
  /usr/include/armadillo_bits/newarp_UpperHessenbergEigen_meat.hpp \
  /usr/include/armadillo_bits/newarp_UpperHessenbergQR_meat.hpp \
  /usr/include/armadillo_bits/compiler_setup_post.hpp \
- /home/colacat/KuiperLLama/kuiper/include/base/buffer.h \
- /home/colacat/KuiperLLama/kuiper/include/base/alloc.h \
- /home/colacat/KuiperLLama/kuiper/include/base/base.h \
- /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/../kernels_interface.h
+ /home/colacat/maomao_infer/kuiper/include/base/buffer.h \
+ /home/colacat/maomao_infer/kuiper/include/base/alloc.h \
+ /home/colacat/maomao_infer/kuiper/include/base/base.h \
+ /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/../kernels_interface.h

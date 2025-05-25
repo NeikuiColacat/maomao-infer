@@ -1,8 +1,8 @@
 CMakeFiles/llama.dir/kuiper/source/sampler/argmax_sampler.cpp.o: \
- /home/colacat/KuiperLLama/kuiper/source/sampler/argmax_sampler.cpp \
+ /home/colacat/maomao_infer/kuiper/source/sampler/argmax_sampler.cpp \
  /usr/include/stdc-predef.h \
- /home/colacat/KuiperLLama/kuiper/include/sampler/argmax_sampler.h \
- /home/colacat/KuiperLLama/kuiper/include/base/base.h \
+ /home/colacat/maomao_infer/kuiper/include/sampler/argmax_sampler.h \
+ /home/colacat/maomao_infer/kuiper/include/base/base.h \
  /usr/local/include/glog/logging.h /usr/include/c++/11/atomic \
  /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -183,7 +183,7 @@ CMakeFiles/llama.dir/kuiper/source/sampler/argmax_sampler.cpp.o: \
  /usr/local/include/glog/flags.h /usr/local/include/glog/platform.h \
  /usr/local/include/glog/types.h /usr/local/include/glog/log_severity.h \
  /usr/local/include/glog/vlog_is_on.h \
- /home/colacat/KuiperLLama/kuiper/include/sampler/sampler.h \
+ /home/colacat/maomao_infer/kuiper/include/sampler/sampler.h \
  /usr/include/c++/11/algorithm /usr/include/c++/11/bits/stl_algo.h \
  /usr/include/c++/11/bits/algorithmfwd.h \
  /usr/include/c++/11/bits/stl_heap.h \
@@ -196,4 +196,4 @@ CMakeFiles/llama.dir/kuiper/source/sampler/argmax_sampler.cpp.o: \
  /usr/include/c++/11/bits/node_handle.h \
  /usr/include/c++/11/bits/unordered_map.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/colacat/KuiperLLama/kuiper/source/sampler/../op/kernels/cuda/argmax_kernel.cuh
+ /home/colacat/maomao_infer/kuiper/source/sampler/../op/kernels/cuda/argmax_kernel.cuh

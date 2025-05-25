@@ -1,8 +1,8 @@
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/softmax_kernel.cpp.o: \
- /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/softmax_kernel.cpp \
+ /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/softmax_kernel.cpp \
  /usr/include/stdc-predef.h \
- /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/softmax_kernel.h \
- /home/colacat/KuiperLLama/kuiper/include/tensor/tensor.h \
+ /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/softmax_kernel.h \
+ /home/colacat/maomao_infer/kuiper/include/tensor/tensor.h \
  /usr/local/cuda/include/driver_types.h \
  /usr/local/cuda/include/crt/host_defines.h \
  /usr/local/cuda/include/vector_types.h \
@@ -887,12 +887,12 @@ CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/softmax_kernel.cpp.o: \
  /usr/include/armadillo_bits/newarp_UpperHessenbergEigen_meat.hpp \
  /usr/include/armadillo_bits/newarp_UpperHessenbergQR_meat.hpp \
  /usr/include/armadillo_bits/compiler_setup_post.hpp \
- /home/colacat/KuiperLLama/kuiper/include/base/base.h \
- /home/colacat/KuiperLLama/kuiper/include/base/buffer.h \
- /home/colacat/KuiperLLama/kuiper/include/base/alloc.h \
- /home/colacat/KuiperLLama/kuiper/include/base/base.h \
- /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/../kernels_interface.h \
- /home/colacat/KuiperLLama/kuiper/include/base/cuda_config.h \
+ /home/colacat/maomao_infer/kuiper/include/base/base.h \
+ /home/colacat/maomao_infer/kuiper/include/base/buffer.h \
+ /home/colacat/maomao_infer/kuiper/include/base/alloc.h \
+ /home/colacat/maomao_infer/kuiper/include/base/base.h \
+ /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/../kernels_interface.h \
+ /home/colacat/maomao_infer/kuiper/include/base/cuda_config.h \
  /usr/local/cuda/include/cublas_v2.h /usr/local/cuda/include/cublas_api.h \
  /usr/local/cuda/include/driver_types.h \
  /usr/local/cuda/include/cuComplex.h /usr/include/c++/11/math.h \

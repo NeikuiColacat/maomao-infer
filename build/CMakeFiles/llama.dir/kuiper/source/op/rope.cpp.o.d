@@ -1,9 +1,9 @@
 CMakeFiles/llama.dir/kuiper/source/op/rope.cpp.o: \
- /home/colacat/KuiperLLama/kuiper/source/op/rope.cpp \
+ /home/colacat/maomao_infer/kuiper/source/op/rope.cpp \
  /usr/include/stdc-predef.h \
- /home/colacat/KuiperLLama/kuiper/include/op/rope.h \
- /home/colacat/KuiperLLama/kuiper/include/op/layer.h \
- /home/colacat/KuiperLLama/kuiper/include/base/cuda_config.h \
+ /home/colacat/maomao_infer/kuiper/include/op/rope.h \
+ /home/colacat/maomao_infer/kuiper/include/op/layer.h \
+ /home/colacat/maomao_infer/kuiper/include/base/cuda_config.h \
  /usr/local/cuda/include/cublas_v2.h /usr/local/cuda/include/cublas_api.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -189,7 +189,7 @@ CMakeFiles/llama.dir/kuiper/source/op/rope.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/colacat/KuiperLLama/kuiper/include/base/base.h \
+ /home/colacat/maomao_infer/kuiper/include/base/base.h \
  /usr/local/include/glog/logging.h /usr/include/c++/11/atomic \
  /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
@@ -239,7 +239,7 @@ CMakeFiles/llama.dir/kuiper/source/op/rope.cpp.o: \
  /usr/local/include/glog/platform.h /usr/local/include/glog/types.h \
  /usr/local/include/glog/log_severity.h \
  /usr/local/include/glog/vlog_is_on.h \
- /home/colacat/KuiperLLama/kuiper/include/tensor/tensor.h \
+ /home/colacat/maomao_infer/kuiper/include/tensor/tensor.h \
  /usr/local/cuda/include/driver_types.h /usr/include/armadillo \
  /usr/include/armadillo_bits/config.hpp \
  /usr/include/armadillo_bits/compiler_check.hpp \
@@ -912,8 +912,8 @@ CMakeFiles/llama.dir/kuiper/source/op/rope.cpp.o: \
  /usr/include/armadillo_bits/newarp_UpperHessenbergEigen_meat.hpp \
  /usr/include/armadillo_bits/newarp_UpperHessenbergQR_meat.hpp \
  /usr/include/armadillo_bits/compiler_setup_post.hpp \
- /home/colacat/KuiperLLama/kuiper/include/base/buffer.h \
- /home/colacat/KuiperLLama/kuiper/include/base/alloc.h \
- /home/colacat/KuiperLLama/kuiper/include/base/base.h \
- /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/rope_kernel.h \
- /home/colacat/KuiperLLama/kuiper/source/op/kernels/kernels_interface.h
+ /home/colacat/maomao_infer/kuiper/include/base/buffer.h \
+ /home/colacat/maomao_infer/kuiper/include/base/alloc.h \
+ /home/colacat/maomao_infer/kuiper/include/base/base.h \
+ /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/rope_kernel.h \
+ /home/colacat/maomao_infer/kuiper/source/op/kernels/kernels_interface.h

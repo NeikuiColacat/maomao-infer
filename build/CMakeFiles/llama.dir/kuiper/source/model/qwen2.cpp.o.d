@@ -1,8 +1,8 @@
 CMakeFiles/llama.dir/kuiper/source/model/qwen2.cpp.o: \
- /home/colacat/KuiperLLama/kuiper/source/model/qwen2.cpp \
+ /home/colacat/maomao_infer/kuiper/source/model/qwen2.cpp \
  /usr/include/stdc-predef.h \
- /home/colacat/KuiperLLama/kuiper/include/model/qwen2.h \
- /home/colacat/KuiperLLama/kuiper/include/base/cuda_config.h \
+ /home/colacat/maomao_infer/kuiper/include/model/qwen2.h \
+ /home/colacat/maomao_infer/kuiper/include/base/cuda_config.h \
  /usr/local/cuda/include/cublas_v2.h /usr/local/cuda/include/cublas_api.h \
  /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
@@ -124,9 +124,9 @@ CMakeFiles/llama.dir/kuiper/source/model/qwen2.cpp.o: \
  /usr/local/cuda/include/cuda_bf16.hpp \
  /usr/local/cuda/include/library_types.h \
  /usr/local/cuda/include/cuda_runtime_api.h \
- /home/colacat/KuiperLLama/kuiper/include/model/model.h \
- /home/colacat/KuiperLLama/kuiper/include/op/embedding.h \
- /home/colacat/KuiperLLama/kuiper/include/op/layer.h \
+ /home/colacat/maomao_infer/kuiper/include/model/model.h \
+ /home/colacat/maomao_infer/kuiper/include/op/embedding.h \
+ /home/colacat/maomao_infer/kuiper/include/op/layer.h \
  /usr/include/c++/11/string /usr/include/c++/11/bits/stringfwd.h \
  /usr/include/c++/11/bits/memoryfwd.h \
  /usr/include/c++/11/bits/char_traits.h \
@@ -191,7 +191,7 @@ CMakeFiles/llama.dir/kuiper/source/model/qwen2.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/colacat/KuiperLLama/kuiper/include/base/base.h \
+ /home/colacat/maomao_infer/kuiper/include/base/base.h \
  /usr/local/include/glog/logging.h /usr/include/c++/11/atomic \
  /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
@@ -241,7 +241,7 @@ CMakeFiles/llama.dir/kuiper/source/model/qwen2.cpp.o: \
  /usr/local/include/glog/platform.h /usr/local/include/glog/types.h \
  /usr/local/include/glog/log_severity.h \
  /usr/local/include/glog/vlog_is_on.h \
- /home/colacat/KuiperLLama/kuiper/include/tensor/tensor.h \
+ /home/colacat/maomao_infer/kuiper/include/tensor/tensor.h \
  /usr/local/cuda/include/driver_types.h /usr/include/armadillo \
  /usr/include/armadillo_bits/config.hpp \
  /usr/include/armadillo_bits/compiler_check.hpp \
@@ -914,22 +914,22 @@ CMakeFiles/llama.dir/kuiper/source/model/qwen2.cpp.o: \
  /usr/include/armadillo_bits/newarp_UpperHessenbergEigen_meat.hpp \
  /usr/include/armadillo_bits/newarp_UpperHessenbergQR_meat.hpp \
  /usr/include/armadillo_bits/compiler_setup_post.hpp \
- /home/colacat/KuiperLLama/kuiper/include/base/buffer.h \
- /home/colacat/KuiperLLama/kuiper/include/base/alloc.h \
- /home/colacat/KuiperLLama/kuiper/include/base/base.h \
- /home/colacat/KuiperLLama/kuiper/include/model/config.h \
- /home/colacat/KuiperLLama/kuiper/include/op/encode.h \
+ /home/colacat/maomao_infer/kuiper/include/base/buffer.h \
+ /home/colacat/maomao_infer/kuiper/include/base/alloc.h \
+ /home/colacat/maomao_infer/kuiper/include/base/base.h \
+ /home/colacat/maomao_infer/kuiper/include/model/config.h \
+ /home/colacat/maomao_infer/kuiper/include/op/encode.h \
  /usr/local/include/sentencepiece_processor.h \
- /home/colacat/KuiperLLama/kuiper/include/op/layer.h \
- /home/colacat/KuiperLLama/kuiper/include/model/raw_model_data.h \
- /home/colacat/KuiperLLama/kuiper/include/sampler/argmax_sampler.h \
- /home/colacat/KuiperLLama/kuiper/include/sampler/sampler.h \
- /home/colacat/KuiperLLama/kuiper/include/op/add.h \
- /home/colacat/KuiperLLama/kuiper/include/op/rope.h \
- /home/colacat/KuiperLLama/kuiper/include/op/swiglu.h \
- /home/colacat/KuiperLLama/kuiper/include/op/matmul.h \
- /home/colacat/KuiperLLama/kuiper/include/op/mha.h \
- /home/colacat/KuiperLLama/kuiper/include/op/rmsnorm.h \
- /home/colacat/KuiperLLama/kuiper/source/model/../op/kernels/cpu/rope_kernel.h \
- /home/colacat/KuiperLLama/kuiper/source/model/../op/kernels/cuda/rope_kernel.cuh \
- /home/colacat/KuiperLLama/kuiper/include/base/tick.h
+ /home/colacat/maomao_infer/kuiper/include/op/layer.h \
+ /home/colacat/maomao_infer/kuiper/include/model/raw_model_data.h \
+ /home/colacat/maomao_infer/kuiper/include/sampler/argmax_sampler.h \
+ /home/colacat/maomao_infer/kuiper/include/sampler/sampler.h \
+ /home/colacat/maomao_infer/kuiper/include/op/add.h \
+ /home/colacat/maomao_infer/kuiper/include/op/rope.h \
+ /home/colacat/maomao_infer/kuiper/include/op/swiglu.h \
+ /home/colacat/maomao_infer/kuiper/include/op/matmul.h \
+ /home/colacat/maomao_infer/kuiper/include/op/mha.h \
+ /home/colacat/maomao_infer/kuiper/include/op/rmsnorm.h \
+ /home/colacat/maomao_infer/kuiper/source/model/../op/kernels/cpu/rope_kernel.h \
+ /home/colacat/maomao_infer/kuiper/source/model/../op/kernels/cuda/rope_kernel.cuh \
+ /home/colacat/maomao_infer/kuiper/include/base/tick.h

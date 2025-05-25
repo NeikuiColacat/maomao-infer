@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/colacat/KuiperLLama
+CMAKE_SOURCE_DIR = /home/colacat/maomao_infer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/colacat/KuiperLLama/build
+CMAKE_BINARY_DIR = /home/colacat/maomao_infer/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/llama.dir/depend.make
@@ -72,456 +72,526 @@ include CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/tensor/tensor.cpp.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/tensor/tensor.cpp.o: ../kuiper/source/tensor/tensor.cpp
 CMakeFiles/llama.dir/kuiper/source/tensor/tensor.cpp.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/llama.dir/kuiper/source/tensor/tensor.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/tensor/tensor.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/tensor/tensor.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/tensor/tensor.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/tensor/tensor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/llama.dir/kuiper/source/tensor/tensor.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/tensor/tensor.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/tensor/tensor.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/tensor/tensor.cpp.o -c /home/colacat/maomao_infer/kuiper/source/tensor/tensor.cpp
 
 CMakeFiles/llama.dir/kuiper/source/tensor/tensor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama.dir/kuiper/source/tensor/tensor.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/KuiperLLama/kuiper/source/tensor/tensor.cpp > CMakeFiles/llama.dir/kuiper/source/tensor/tensor.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/maomao_infer/kuiper/source/tensor/tensor.cpp > CMakeFiles/llama.dir/kuiper/source/tensor/tensor.cpp.i
 
 CMakeFiles/llama.dir/kuiper/source/tensor/tensor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama.dir/kuiper/source/tensor/tensor.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/KuiperLLama/kuiper/source/tensor/tensor.cpp -o CMakeFiles/llama.dir/kuiper/source/tensor/tensor.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/maomao_infer/kuiper/source/tensor/tensor.cpp -o CMakeFiles/llama.dir/kuiper/source/tensor/tensor.cpp.s
 
 CMakeFiles/llama.dir/kuiper/source/base/alloc.cpp.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/base/alloc.cpp.o: ../kuiper/source/base/alloc.cpp
 CMakeFiles/llama.dir/kuiper/source/base/alloc.cpp.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/llama.dir/kuiper/source/base/alloc.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/base/alloc.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/base/alloc.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/base/alloc.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/base/alloc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/llama.dir/kuiper/source/base/alloc.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/base/alloc.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/base/alloc.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/base/alloc.cpp.o -c /home/colacat/maomao_infer/kuiper/source/base/alloc.cpp
 
 CMakeFiles/llama.dir/kuiper/source/base/alloc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama.dir/kuiper/source/base/alloc.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/KuiperLLama/kuiper/source/base/alloc.cpp > CMakeFiles/llama.dir/kuiper/source/base/alloc.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/maomao_infer/kuiper/source/base/alloc.cpp > CMakeFiles/llama.dir/kuiper/source/base/alloc.cpp.i
 
 CMakeFiles/llama.dir/kuiper/source/base/alloc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama.dir/kuiper/source/base/alloc.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/KuiperLLama/kuiper/source/base/alloc.cpp -o CMakeFiles/llama.dir/kuiper/source/base/alloc.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/maomao_infer/kuiper/source/base/alloc.cpp -o CMakeFiles/llama.dir/kuiper/source/base/alloc.cpp.s
 
 CMakeFiles/llama.dir/kuiper/source/base/alloc_cpu.cpp.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/base/alloc_cpu.cpp.o: ../kuiper/source/base/alloc_cpu.cpp
 CMakeFiles/llama.dir/kuiper/source/base/alloc_cpu.cpp.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/llama.dir/kuiper/source/base/alloc_cpu.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/base/alloc_cpu.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/base/alloc_cpu.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/base/alloc_cpu.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/base/alloc_cpu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/llama.dir/kuiper/source/base/alloc_cpu.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/base/alloc_cpu.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/base/alloc_cpu.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/base/alloc_cpu.cpp.o -c /home/colacat/maomao_infer/kuiper/source/base/alloc_cpu.cpp
 
 CMakeFiles/llama.dir/kuiper/source/base/alloc_cpu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama.dir/kuiper/source/base/alloc_cpu.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/KuiperLLama/kuiper/source/base/alloc_cpu.cpp > CMakeFiles/llama.dir/kuiper/source/base/alloc_cpu.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/maomao_infer/kuiper/source/base/alloc_cpu.cpp > CMakeFiles/llama.dir/kuiper/source/base/alloc_cpu.cpp.i
 
 CMakeFiles/llama.dir/kuiper/source/base/alloc_cpu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama.dir/kuiper/source/base/alloc_cpu.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/KuiperLLama/kuiper/source/base/alloc_cpu.cpp -o CMakeFiles/llama.dir/kuiper/source/base/alloc_cpu.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/maomao_infer/kuiper/source/base/alloc_cpu.cpp -o CMakeFiles/llama.dir/kuiper/source/base/alloc_cpu.cpp.s
 
 CMakeFiles/llama.dir/kuiper/source/base/alloc_cu.cpp.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/base/alloc_cu.cpp.o: ../kuiper/source/base/alloc_cu.cpp
 CMakeFiles/llama.dir/kuiper/source/base/alloc_cu.cpp.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/llama.dir/kuiper/source/base/alloc_cu.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/base/alloc_cu.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/base/alloc_cu.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/base/alloc_cu.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/base/alloc_cu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/llama.dir/kuiper/source/base/alloc_cu.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/base/alloc_cu.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/base/alloc_cu.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/base/alloc_cu.cpp.o -c /home/colacat/maomao_infer/kuiper/source/base/alloc_cu.cpp
 
 CMakeFiles/llama.dir/kuiper/source/base/alloc_cu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama.dir/kuiper/source/base/alloc_cu.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/KuiperLLama/kuiper/source/base/alloc_cu.cpp > CMakeFiles/llama.dir/kuiper/source/base/alloc_cu.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/maomao_infer/kuiper/source/base/alloc_cu.cpp > CMakeFiles/llama.dir/kuiper/source/base/alloc_cu.cpp.i
 
 CMakeFiles/llama.dir/kuiper/source/base/alloc_cu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama.dir/kuiper/source/base/alloc_cu.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/KuiperLLama/kuiper/source/base/alloc_cu.cpp -o CMakeFiles/llama.dir/kuiper/source/base/alloc_cu.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/maomao_infer/kuiper/source/base/alloc_cu.cpp -o CMakeFiles/llama.dir/kuiper/source/base/alloc_cu.cpp.s
 
 CMakeFiles/llama.dir/kuiper/source/base/base.cpp.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/base/base.cpp.o: ../kuiper/source/base/base.cpp
 CMakeFiles/llama.dir/kuiper/source/base/base.cpp.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/llama.dir/kuiper/source/base/base.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/base/base.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/base/base.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/base/base.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/base/base.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/llama.dir/kuiper/source/base/base.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/base/base.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/base/base.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/base/base.cpp.o -c /home/colacat/maomao_infer/kuiper/source/base/base.cpp
 
 CMakeFiles/llama.dir/kuiper/source/base/base.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama.dir/kuiper/source/base/base.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/KuiperLLama/kuiper/source/base/base.cpp > CMakeFiles/llama.dir/kuiper/source/base/base.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/maomao_infer/kuiper/source/base/base.cpp > CMakeFiles/llama.dir/kuiper/source/base/base.cpp.i
 
 CMakeFiles/llama.dir/kuiper/source/base/base.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama.dir/kuiper/source/base/base.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/KuiperLLama/kuiper/source/base/base.cpp -o CMakeFiles/llama.dir/kuiper/source/base/base.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/maomao_infer/kuiper/source/base/base.cpp -o CMakeFiles/llama.dir/kuiper/source/base/base.cpp.s
 
 CMakeFiles/llama.dir/kuiper/source/base/buffer.cpp.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/base/buffer.cpp.o: ../kuiper/source/base/buffer.cpp
 CMakeFiles/llama.dir/kuiper/source/base/buffer.cpp.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/llama.dir/kuiper/source/base/buffer.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/base/buffer.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/base/buffer.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/base/buffer.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/base/buffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/llama.dir/kuiper/source/base/buffer.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/base/buffer.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/base/buffer.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/base/buffer.cpp.o -c /home/colacat/maomao_infer/kuiper/source/base/buffer.cpp
 
 CMakeFiles/llama.dir/kuiper/source/base/buffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama.dir/kuiper/source/base/buffer.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/KuiperLLama/kuiper/source/base/buffer.cpp > CMakeFiles/llama.dir/kuiper/source/base/buffer.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/maomao_infer/kuiper/source/base/buffer.cpp > CMakeFiles/llama.dir/kuiper/source/base/buffer.cpp.i
 
 CMakeFiles/llama.dir/kuiper/source/base/buffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama.dir/kuiper/source/base/buffer.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/KuiperLLama/kuiper/source/base/buffer.cpp -o CMakeFiles/llama.dir/kuiper/source/base/buffer.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/maomao_infer/kuiper/source/base/buffer.cpp -o CMakeFiles/llama.dir/kuiper/source/base/buffer.cpp.s
+
+CMakeFiles/llama.dir/kuiper/source/base/m_alloc.cpp.o: CMakeFiles/llama.dir/flags.make
+CMakeFiles/llama.dir/kuiper/source/base/m_alloc.cpp.o: ../kuiper/source/base/m_alloc.cpp
+CMakeFiles/llama.dir/kuiper/source/base/m_alloc.cpp.o: CMakeFiles/llama.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/llama.dir/kuiper/source/base/m_alloc.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/base/m_alloc.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/base/m_alloc.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/base/m_alloc.cpp.o -c /home/colacat/maomao_infer/kuiper/source/base/m_alloc.cpp
+
+CMakeFiles/llama.dir/kuiper/source/base/m_alloc.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama.dir/kuiper/source/base/m_alloc.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/maomao_infer/kuiper/source/base/m_alloc.cpp > CMakeFiles/llama.dir/kuiper/source/base/m_alloc.cpp.i
+
+CMakeFiles/llama.dir/kuiper/source/base/m_alloc.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama.dir/kuiper/source/base/m_alloc.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/maomao_infer/kuiper/source/base/m_alloc.cpp -o CMakeFiles/llama.dir/kuiper/source/base/m_alloc.cpp.s
+
+CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cpu.cpp.o: CMakeFiles/llama.dir/flags.make
+CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cpu.cpp.o: ../kuiper/source/base/m_alloc_cpu.cpp
+CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cpu.cpp.o: CMakeFiles/llama.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cpu.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cpu.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cpu.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cpu.cpp.o -c /home/colacat/maomao_infer/kuiper/source/base/m_alloc_cpu.cpp
+
+CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cpu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cpu.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/maomao_infer/kuiper/source/base/m_alloc_cpu.cpp > CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cpu.cpp.i
+
+CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cpu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cpu.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/maomao_infer/kuiper/source/base/m_alloc_cpu.cpp -o CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cpu.cpp.s
+
+CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cu.cpp.o: CMakeFiles/llama.dir/flags.make
+CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cu.cpp.o: ../kuiper/source/base/m_alloc_cu.cpp
+CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cu.cpp.o: CMakeFiles/llama.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cu.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cu.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cu.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cu.cpp.o -c /home/colacat/maomao_infer/kuiper/source/base/m_alloc_cu.cpp
+
+CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cu.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cu.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/maomao_infer/kuiper/source/base/m_alloc_cu.cpp > CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cu.cpp.i
+
+CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cu.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cu.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/maomao_infer/kuiper/source/base/m_alloc_cu.cpp -o CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cu.cpp.s
+
+CMakeFiles/llama.dir/kuiper/source/base/m_base.cpp.o: CMakeFiles/llama.dir/flags.make
+CMakeFiles/llama.dir/kuiper/source/base/m_base.cpp.o: ../kuiper/source/base/m_base.cpp
+CMakeFiles/llama.dir/kuiper/source/base/m_base.cpp.o: CMakeFiles/llama.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/llama.dir/kuiper/source/base/m_base.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/base/m_base.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/base/m_base.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/base/m_base.cpp.o -c /home/colacat/maomao_infer/kuiper/source/base/m_base.cpp
+
+CMakeFiles/llama.dir/kuiper/source/base/m_base.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama.dir/kuiper/source/base/m_base.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/maomao_infer/kuiper/source/base/m_base.cpp > CMakeFiles/llama.dir/kuiper/source/base/m_base.cpp.i
+
+CMakeFiles/llama.dir/kuiper/source/base/m_base.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama.dir/kuiper/source/base/m_base.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/maomao_infer/kuiper/source/base/m_base.cpp -o CMakeFiles/llama.dir/kuiper/source/base/m_base.cpp.s
+
+CMakeFiles/llama.dir/kuiper/source/base/m_buffer.cpp.o: CMakeFiles/llama.dir/flags.make
+CMakeFiles/llama.dir/kuiper/source/base/m_buffer.cpp.o: ../kuiper/source/base/m_buffer.cpp
+CMakeFiles/llama.dir/kuiper/source/base/m_buffer.cpp.o: CMakeFiles/llama.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/llama.dir/kuiper/source/base/m_buffer.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/base/m_buffer.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/base/m_buffer.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/base/m_buffer.cpp.o -c /home/colacat/maomao_infer/kuiper/source/base/m_buffer.cpp
+
+CMakeFiles/llama.dir/kuiper/source/base/m_buffer.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama.dir/kuiper/source/base/m_buffer.cpp.i"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/maomao_infer/kuiper/source/base/m_buffer.cpp > CMakeFiles/llama.dir/kuiper/source/base/m_buffer.cpp.i
+
+CMakeFiles/llama.dir/kuiper/source/base/m_buffer.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama.dir/kuiper/source/base/m_buffer.cpp.s"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/maomao_infer/kuiper/source/base/m_buffer.cpp -o CMakeFiles/llama.dir/kuiper/source/base/m_buffer.cpp.s
 
 CMakeFiles/llama.dir/kuiper/source/base/unicode-data.cpp.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/base/unicode-data.cpp.o: ../kuiper/source/base/unicode-data.cpp
 CMakeFiles/llama.dir/kuiper/source/base/unicode-data.cpp.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/llama.dir/kuiper/source/base/unicode-data.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/base/unicode-data.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/base/unicode-data.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/base/unicode-data.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/base/unicode-data.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/llama.dir/kuiper/source/base/unicode-data.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/base/unicode-data.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/base/unicode-data.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/base/unicode-data.cpp.o -c /home/colacat/maomao_infer/kuiper/source/base/unicode-data.cpp
 
 CMakeFiles/llama.dir/kuiper/source/base/unicode-data.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama.dir/kuiper/source/base/unicode-data.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/KuiperLLama/kuiper/source/base/unicode-data.cpp > CMakeFiles/llama.dir/kuiper/source/base/unicode-data.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/maomao_infer/kuiper/source/base/unicode-data.cpp > CMakeFiles/llama.dir/kuiper/source/base/unicode-data.cpp.i
 
 CMakeFiles/llama.dir/kuiper/source/base/unicode-data.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama.dir/kuiper/source/base/unicode-data.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/KuiperLLama/kuiper/source/base/unicode-data.cpp -o CMakeFiles/llama.dir/kuiper/source/base/unicode-data.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/maomao_infer/kuiper/source/base/unicode-data.cpp -o CMakeFiles/llama.dir/kuiper/source/base/unicode-data.cpp.s
 
 CMakeFiles/llama.dir/kuiper/source/base/unicode.cpp.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/base/unicode.cpp.o: ../kuiper/source/base/unicode.cpp
 CMakeFiles/llama.dir/kuiper/source/base/unicode.cpp.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/llama.dir/kuiper/source/base/unicode.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/base/unicode.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/base/unicode.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/base/unicode.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/base/unicode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/llama.dir/kuiper/source/base/unicode.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/base/unicode.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/base/unicode.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/base/unicode.cpp.o -c /home/colacat/maomao_infer/kuiper/source/base/unicode.cpp
 
 CMakeFiles/llama.dir/kuiper/source/base/unicode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama.dir/kuiper/source/base/unicode.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/KuiperLLama/kuiper/source/base/unicode.cpp > CMakeFiles/llama.dir/kuiper/source/base/unicode.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/maomao_infer/kuiper/source/base/unicode.cpp > CMakeFiles/llama.dir/kuiper/source/base/unicode.cpp.i
 
 CMakeFiles/llama.dir/kuiper/source/base/unicode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama.dir/kuiper/source/base/unicode.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/KuiperLLama/kuiper/source/base/unicode.cpp -o CMakeFiles/llama.dir/kuiper/source/base/unicode.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/maomao_infer/kuiper/source/base/unicode.cpp -o CMakeFiles/llama.dir/kuiper/source/base/unicode.cpp.s
 
 CMakeFiles/llama.dir/kuiper/source/op/add.cpp.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/op/add.cpp.o: ../kuiper/source/op/add.cpp
 CMakeFiles/llama.dir/kuiper/source/op/add.cpp.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/add.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/add.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/add.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/add.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/add.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/add.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/add.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/add.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/add.cpp.o -c /home/colacat/maomao_infer/kuiper/source/op/add.cpp
 
 CMakeFiles/llama.dir/kuiper/source/op/add.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama.dir/kuiper/source/op/add.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/KuiperLLama/kuiper/source/op/add.cpp > CMakeFiles/llama.dir/kuiper/source/op/add.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/maomao_infer/kuiper/source/op/add.cpp > CMakeFiles/llama.dir/kuiper/source/op/add.cpp.i
 
 CMakeFiles/llama.dir/kuiper/source/op/add.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama.dir/kuiper/source/op/add.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/KuiperLLama/kuiper/source/op/add.cpp -o CMakeFiles/llama.dir/kuiper/source/op/add.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/maomao_infer/kuiper/source/op/add.cpp -o CMakeFiles/llama.dir/kuiper/source/op/add.cpp.s
 
 CMakeFiles/llama.dir/kuiper/source/op/embedding.cpp.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/op/embedding.cpp.o: ../kuiper/source/op/embedding.cpp
 CMakeFiles/llama.dir/kuiper/source/op/embedding.cpp.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/embedding.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/embedding.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/embedding.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/embedding.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/embedding.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/embedding.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/embedding.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/embedding.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/embedding.cpp.o -c /home/colacat/maomao_infer/kuiper/source/op/embedding.cpp
 
 CMakeFiles/llama.dir/kuiper/source/op/embedding.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama.dir/kuiper/source/op/embedding.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/KuiperLLama/kuiper/source/op/embedding.cpp > CMakeFiles/llama.dir/kuiper/source/op/embedding.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/maomao_infer/kuiper/source/op/embedding.cpp > CMakeFiles/llama.dir/kuiper/source/op/embedding.cpp.i
 
 CMakeFiles/llama.dir/kuiper/source/op/embedding.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama.dir/kuiper/source/op/embedding.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/KuiperLLama/kuiper/source/op/embedding.cpp -o CMakeFiles/llama.dir/kuiper/source/op/embedding.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/maomao_infer/kuiper/source/op/embedding.cpp -o CMakeFiles/llama.dir/kuiper/source/op/embedding.cpp.s
 
 CMakeFiles/llama.dir/kuiper/source/op/encode.cpp.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/op/encode.cpp.o: ../kuiper/source/op/encode.cpp
 CMakeFiles/llama.dir/kuiper/source/op/encode.cpp.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/encode.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/encode.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/encode.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/encode.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/encode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/encode.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/encode.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/encode.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/encode.cpp.o -c /home/colacat/maomao_infer/kuiper/source/op/encode.cpp
 
 CMakeFiles/llama.dir/kuiper/source/op/encode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama.dir/kuiper/source/op/encode.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/KuiperLLama/kuiper/source/op/encode.cpp > CMakeFiles/llama.dir/kuiper/source/op/encode.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/maomao_infer/kuiper/source/op/encode.cpp > CMakeFiles/llama.dir/kuiper/source/op/encode.cpp.i
 
 CMakeFiles/llama.dir/kuiper/source/op/encode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama.dir/kuiper/source/op/encode.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/KuiperLLama/kuiper/source/op/encode.cpp -o CMakeFiles/llama.dir/kuiper/source/op/encode.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/maomao_infer/kuiper/source/op/encode.cpp -o CMakeFiles/llama.dir/kuiper/source/op/encode.cpp.s
 
 CMakeFiles/llama.dir/kuiper/source/op/layer.cpp.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/op/layer.cpp.o: ../kuiper/source/op/layer.cpp
 CMakeFiles/llama.dir/kuiper/source/op/layer.cpp.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/layer.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/layer.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/layer.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/layer.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/layer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/layer.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/layer.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/layer.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/layer.cpp.o -c /home/colacat/maomao_infer/kuiper/source/op/layer.cpp
 
 CMakeFiles/llama.dir/kuiper/source/op/layer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama.dir/kuiper/source/op/layer.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/KuiperLLama/kuiper/source/op/layer.cpp > CMakeFiles/llama.dir/kuiper/source/op/layer.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/maomao_infer/kuiper/source/op/layer.cpp > CMakeFiles/llama.dir/kuiper/source/op/layer.cpp.i
 
 CMakeFiles/llama.dir/kuiper/source/op/layer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama.dir/kuiper/source/op/layer.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/KuiperLLama/kuiper/source/op/layer.cpp -o CMakeFiles/llama.dir/kuiper/source/op/layer.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/maomao_infer/kuiper/source/op/layer.cpp -o CMakeFiles/llama.dir/kuiper/source/op/layer.cpp.s
 
 CMakeFiles/llama.dir/kuiper/source/op/matmul.cpp.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/op/matmul.cpp.o: ../kuiper/source/op/matmul.cpp
 CMakeFiles/llama.dir/kuiper/source/op/matmul.cpp.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/matmul.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/matmul.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/matmul.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/matmul.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/matmul.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/matmul.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/matmul.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/matmul.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/matmul.cpp.o -c /home/colacat/maomao_infer/kuiper/source/op/matmul.cpp
 
 CMakeFiles/llama.dir/kuiper/source/op/matmul.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama.dir/kuiper/source/op/matmul.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/KuiperLLama/kuiper/source/op/matmul.cpp > CMakeFiles/llama.dir/kuiper/source/op/matmul.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/maomao_infer/kuiper/source/op/matmul.cpp > CMakeFiles/llama.dir/kuiper/source/op/matmul.cpp.i
 
 CMakeFiles/llama.dir/kuiper/source/op/matmul.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama.dir/kuiper/source/op/matmul.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/KuiperLLama/kuiper/source/op/matmul.cpp -o CMakeFiles/llama.dir/kuiper/source/op/matmul.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/maomao_infer/kuiper/source/op/matmul.cpp -o CMakeFiles/llama.dir/kuiper/source/op/matmul.cpp.s
 
 CMakeFiles/llama.dir/kuiper/source/op/mha.cpp.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/op/mha.cpp.o: ../kuiper/source/op/mha.cpp
 CMakeFiles/llama.dir/kuiper/source/op/mha.cpp.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/mha.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/mha.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/mha.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/mha.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/mha.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/mha.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/mha.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/mha.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/mha.cpp.o -c /home/colacat/maomao_infer/kuiper/source/op/mha.cpp
 
 CMakeFiles/llama.dir/kuiper/source/op/mha.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama.dir/kuiper/source/op/mha.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/KuiperLLama/kuiper/source/op/mha.cpp > CMakeFiles/llama.dir/kuiper/source/op/mha.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/maomao_infer/kuiper/source/op/mha.cpp > CMakeFiles/llama.dir/kuiper/source/op/mha.cpp.i
 
 CMakeFiles/llama.dir/kuiper/source/op/mha.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama.dir/kuiper/source/op/mha.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/KuiperLLama/kuiper/source/op/mha.cpp -o CMakeFiles/llama.dir/kuiper/source/op/mha.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/maomao_infer/kuiper/source/op/mha.cpp -o CMakeFiles/llama.dir/kuiper/source/op/mha.cpp.s
 
 CMakeFiles/llama.dir/kuiper/source/op/rmsnorm.cpp.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/op/rmsnorm.cpp.o: ../kuiper/source/op/rmsnorm.cpp
 CMakeFiles/llama.dir/kuiper/source/op/rmsnorm.cpp.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/rmsnorm.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/rmsnorm.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/rmsnorm.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/rmsnorm.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/rmsnorm.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/rmsnorm.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/rmsnorm.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/rmsnorm.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/rmsnorm.cpp.o -c /home/colacat/maomao_infer/kuiper/source/op/rmsnorm.cpp
 
 CMakeFiles/llama.dir/kuiper/source/op/rmsnorm.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama.dir/kuiper/source/op/rmsnorm.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/KuiperLLama/kuiper/source/op/rmsnorm.cpp > CMakeFiles/llama.dir/kuiper/source/op/rmsnorm.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/maomao_infer/kuiper/source/op/rmsnorm.cpp > CMakeFiles/llama.dir/kuiper/source/op/rmsnorm.cpp.i
 
 CMakeFiles/llama.dir/kuiper/source/op/rmsnorm.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama.dir/kuiper/source/op/rmsnorm.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/KuiperLLama/kuiper/source/op/rmsnorm.cpp -o CMakeFiles/llama.dir/kuiper/source/op/rmsnorm.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/maomao_infer/kuiper/source/op/rmsnorm.cpp -o CMakeFiles/llama.dir/kuiper/source/op/rmsnorm.cpp.s
 
 CMakeFiles/llama.dir/kuiper/source/op/rope.cpp.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/op/rope.cpp.o: ../kuiper/source/op/rope.cpp
 CMakeFiles/llama.dir/kuiper/source/op/rope.cpp.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/rope.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/rope.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/rope.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/rope.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/rope.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/rope.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/rope.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/rope.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/rope.cpp.o -c /home/colacat/maomao_infer/kuiper/source/op/rope.cpp
 
 CMakeFiles/llama.dir/kuiper/source/op/rope.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama.dir/kuiper/source/op/rope.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/KuiperLLama/kuiper/source/op/rope.cpp > CMakeFiles/llama.dir/kuiper/source/op/rope.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/maomao_infer/kuiper/source/op/rope.cpp > CMakeFiles/llama.dir/kuiper/source/op/rope.cpp.i
 
 CMakeFiles/llama.dir/kuiper/source/op/rope.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama.dir/kuiper/source/op/rope.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/KuiperLLama/kuiper/source/op/rope.cpp -o CMakeFiles/llama.dir/kuiper/source/op/rope.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/maomao_infer/kuiper/source/op/rope.cpp -o CMakeFiles/llama.dir/kuiper/source/op/rope.cpp.s
 
 CMakeFiles/llama.dir/kuiper/source/op/swiglu.cpp.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/op/swiglu.cpp.o: ../kuiper/source/op/swiglu.cpp
 CMakeFiles/llama.dir/kuiper/source/op/swiglu.cpp.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/swiglu.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/swiglu.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/swiglu.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/swiglu.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/swiglu.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/swiglu.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/swiglu.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/swiglu.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/swiglu.cpp.o -c /home/colacat/maomao_infer/kuiper/source/op/swiglu.cpp
 
 CMakeFiles/llama.dir/kuiper/source/op/swiglu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama.dir/kuiper/source/op/swiglu.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/KuiperLLama/kuiper/source/op/swiglu.cpp > CMakeFiles/llama.dir/kuiper/source/op/swiglu.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/maomao_infer/kuiper/source/op/swiglu.cpp > CMakeFiles/llama.dir/kuiper/source/op/swiglu.cpp.i
 
 CMakeFiles/llama.dir/kuiper/source/op/swiglu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama.dir/kuiper/source/op/swiglu.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/KuiperLLama/kuiper/source/op/swiglu.cpp -o CMakeFiles/llama.dir/kuiper/source/op/swiglu.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/maomao_infer/kuiper/source/op/swiglu.cpp -o CMakeFiles/llama.dir/kuiper/source/op/swiglu.cpp.s
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/kernels_interfaces.cpp.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/op/kernels/kernels_interfaces.cpp.o: ../kuiper/source/op/kernels/kernels_interfaces.cpp
 CMakeFiles/llama.dir/kuiper/source/op/kernels/kernels_interfaces.cpp.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/kernels/kernels_interfaces.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/kernels/kernels_interfaces.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/kernels/kernels_interfaces.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/kernels/kernels_interfaces.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/kernels/kernels_interfaces.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/kernels/kernels_interfaces.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/kernels/kernels_interfaces.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/kernels/kernels_interfaces.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/kernels/kernels_interfaces.cpp.o -c /home/colacat/maomao_infer/kuiper/source/op/kernels/kernels_interfaces.cpp
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/kernels_interfaces.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama.dir/kuiper/source/op/kernels/kernels_interfaces.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/KuiperLLama/kuiper/source/op/kernels/kernels_interfaces.cpp > CMakeFiles/llama.dir/kuiper/source/op/kernels/kernels_interfaces.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/maomao_infer/kuiper/source/op/kernels/kernels_interfaces.cpp > CMakeFiles/llama.dir/kuiper/source/op/kernels/kernels_interfaces.cpp.i
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/kernels_interfaces.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama.dir/kuiper/source/op/kernels/kernels_interfaces.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/KuiperLLama/kuiper/source/op/kernels/kernels_interfaces.cpp -o CMakeFiles/llama.dir/kuiper/source/op/kernels/kernels_interfaces.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/maomao_infer/kuiper/source/op/kernels/kernels_interfaces.cpp -o CMakeFiles/llama.dir/kuiper/source/op/kernels/kernels_interfaces.cpp.s
 
 CMakeFiles/llama.dir/kuiper/source/model/llama3.cpp.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/model/llama3.cpp.o: ../kuiper/source/model/llama3.cpp
 CMakeFiles/llama.dir/kuiper/source/model/llama3.cpp.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/llama.dir/kuiper/source/model/llama3.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/model/llama3.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/model/llama3.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/model/llama3.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/model/llama3.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/llama.dir/kuiper/source/model/llama3.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/model/llama3.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/model/llama3.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/model/llama3.cpp.o -c /home/colacat/maomao_infer/kuiper/source/model/llama3.cpp
 
 CMakeFiles/llama.dir/kuiper/source/model/llama3.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama.dir/kuiper/source/model/llama3.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/KuiperLLama/kuiper/source/model/llama3.cpp > CMakeFiles/llama.dir/kuiper/source/model/llama3.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/maomao_infer/kuiper/source/model/llama3.cpp > CMakeFiles/llama.dir/kuiper/source/model/llama3.cpp.i
 
 CMakeFiles/llama.dir/kuiper/source/model/llama3.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama.dir/kuiper/source/model/llama3.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/KuiperLLama/kuiper/source/model/llama3.cpp -o CMakeFiles/llama.dir/kuiper/source/model/llama3.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/maomao_infer/kuiper/source/model/llama3.cpp -o CMakeFiles/llama.dir/kuiper/source/model/llama3.cpp.s
 
 CMakeFiles/llama.dir/kuiper/source/model/model.cpp.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/model/model.cpp.o: ../kuiper/source/model/model.cpp
 CMakeFiles/llama.dir/kuiper/source/model/model.cpp.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object CMakeFiles/llama.dir/kuiper/source/model/model.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/model/model.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/model/model.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/model/model.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/model/model.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/llama.dir/kuiper/source/model/model.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/model/model.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/model/model.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/model/model.cpp.o -c /home/colacat/maomao_infer/kuiper/source/model/model.cpp
 
 CMakeFiles/llama.dir/kuiper/source/model/model.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama.dir/kuiper/source/model/model.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/KuiperLLama/kuiper/source/model/model.cpp > CMakeFiles/llama.dir/kuiper/source/model/model.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/maomao_infer/kuiper/source/model/model.cpp > CMakeFiles/llama.dir/kuiper/source/model/model.cpp.i
 
 CMakeFiles/llama.dir/kuiper/source/model/model.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama.dir/kuiper/source/model/model.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/KuiperLLama/kuiper/source/model/model.cpp -o CMakeFiles/llama.dir/kuiper/source/model/model.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/maomao_infer/kuiper/source/model/model.cpp -o CMakeFiles/llama.dir/kuiper/source/model/model.cpp.s
 
 CMakeFiles/llama.dir/kuiper/source/model/qwen2.cpp.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/model/qwen2.cpp.o: ../kuiper/source/model/qwen2.cpp
 CMakeFiles/llama.dir/kuiper/source/model/qwen2.cpp.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object CMakeFiles/llama.dir/kuiper/source/model/qwen2.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/model/qwen2.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/model/qwen2.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/model/qwen2.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/model/qwen2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/llama.dir/kuiper/source/model/qwen2.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/model/qwen2.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/model/qwen2.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/model/qwen2.cpp.o -c /home/colacat/maomao_infer/kuiper/source/model/qwen2.cpp
 
 CMakeFiles/llama.dir/kuiper/source/model/qwen2.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama.dir/kuiper/source/model/qwen2.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/KuiperLLama/kuiper/source/model/qwen2.cpp > CMakeFiles/llama.dir/kuiper/source/model/qwen2.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/maomao_infer/kuiper/source/model/qwen2.cpp > CMakeFiles/llama.dir/kuiper/source/model/qwen2.cpp.i
 
 CMakeFiles/llama.dir/kuiper/source/model/qwen2.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama.dir/kuiper/source/model/qwen2.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/KuiperLLama/kuiper/source/model/qwen2.cpp -o CMakeFiles/llama.dir/kuiper/source/model/qwen2.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/maomao_infer/kuiper/source/model/qwen2.cpp -o CMakeFiles/llama.dir/kuiper/source/model/qwen2.cpp.s
 
 CMakeFiles/llama.dir/kuiper/source/model/raw_model_data.cpp.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/model/raw_model_data.cpp.o: ../kuiper/source/model/raw_model_data.cpp
 CMakeFiles/llama.dir/kuiper/source/model/raw_model_data.cpp.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object CMakeFiles/llama.dir/kuiper/source/model/raw_model_data.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/model/raw_model_data.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/model/raw_model_data.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/model/raw_model_data.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/model/raw_model_data.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/llama.dir/kuiper/source/model/raw_model_data.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/model/raw_model_data.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/model/raw_model_data.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/model/raw_model_data.cpp.o -c /home/colacat/maomao_infer/kuiper/source/model/raw_model_data.cpp
 
 CMakeFiles/llama.dir/kuiper/source/model/raw_model_data.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama.dir/kuiper/source/model/raw_model_data.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/KuiperLLama/kuiper/source/model/raw_model_data.cpp > CMakeFiles/llama.dir/kuiper/source/model/raw_model_data.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/maomao_infer/kuiper/source/model/raw_model_data.cpp > CMakeFiles/llama.dir/kuiper/source/model/raw_model_data.cpp.i
 
 CMakeFiles/llama.dir/kuiper/source/model/raw_model_data.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama.dir/kuiper/source/model/raw_model_data.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/KuiperLLama/kuiper/source/model/raw_model_data.cpp -o CMakeFiles/llama.dir/kuiper/source/model/raw_model_data.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/maomao_infer/kuiper/source/model/raw_model_data.cpp -o CMakeFiles/llama.dir/kuiper/source/model/raw_model_data.cpp.s
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/add_kernel.cpp.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/add_kernel.cpp.o: ../kuiper/source/op/kernels/cpu/add_kernel.cpp
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/add_kernel.cpp.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/add_kernel.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/add_kernel.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/add_kernel.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/add_kernel.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/add_kernel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/add_kernel.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/add_kernel.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/add_kernel.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/add_kernel.cpp.o -c /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/add_kernel.cpp
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/add_kernel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/add_kernel.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/add_kernel.cpp > CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/add_kernel.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/add_kernel.cpp > CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/add_kernel.cpp.i
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/add_kernel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/add_kernel.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/add_kernel.cpp -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/add_kernel.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/add_kernel.cpp -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/add_kernel.cpp.s
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/emb_kernel.cpp.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/emb_kernel.cpp.o: ../kuiper/source/op/kernels/cpu/emb_kernel.cpp
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/emb_kernel.cpp.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/emb_kernel.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/emb_kernel.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/emb_kernel.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/emb_kernel.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/emb_kernel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/emb_kernel.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/emb_kernel.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/emb_kernel.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/emb_kernel.cpp.o -c /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/emb_kernel.cpp
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/emb_kernel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/emb_kernel.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/emb_kernel.cpp > CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/emb_kernel.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/emb_kernel.cpp > CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/emb_kernel.cpp.i
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/emb_kernel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/emb_kernel.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/emb_kernel.cpp -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/emb_kernel.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/emb_kernel.cpp -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/emb_kernel.cpp.s
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/matmul_kernel.cpp.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/matmul_kernel.cpp.o: ../kuiper/source/op/kernels/cpu/matmul_kernel.cpp
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/matmul_kernel.cpp.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/matmul_kernel.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/matmul_kernel.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/matmul_kernel.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/matmul_kernel.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/matmul_kernel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/matmul_kernel.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/matmul_kernel.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/matmul_kernel.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/matmul_kernel.cpp.o -c /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/matmul_kernel.cpp
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/matmul_kernel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/matmul_kernel.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/matmul_kernel.cpp > CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/matmul_kernel.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/matmul_kernel.cpp > CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/matmul_kernel.cpp.i
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/matmul_kernel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/matmul_kernel.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/matmul_kernel.cpp -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/matmul_kernel.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/matmul_kernel.cpp -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/matmul_kernel.cpp.s
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/mha_kernel.cpp.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/mha_kernel.cpp.o: ../kuiper/source/op/kernels/cpu/mha_kernel.cpp
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/mha_kernel.cpp.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/mha_kernel.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/mha_kernel.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/mha_kernel.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/mha_kernel.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/mha_kernel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/mha_kernel.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/mha_kernel.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/mha_kernel.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/mha_kernel.cpp.o -c /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/mha_kernel.cpp
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/mha_kernel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/mha_kernel.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/mha_kernel.cpp > CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/mha_kernel.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/mha_kernel.cpp > CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/mha_kernel.cpp.i
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/mha_kernel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/mha_kernel.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/mha_kernel.cpp -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/mha_kernel.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/mha_kernel.cpp -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/mha_kernel.cpp.s
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rmsnorm_kernel.cpp.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rmsnorm_kernel.cpp.o: ../kuiper/source/op/kernels/cpu/rmsnorm_kernel.cpp
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rmsnorm_kernel.cpp.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rmsnorm_kernel.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rmsnorm_kernel.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rmsnorm_kernel.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rmsnorm_kernel.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/rmsnorm_kernel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rmsnorm_kernel.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rmsnorm_kernel.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rmsnorm_kernel.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rmsnorm_kernel.cpp.o -c /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/rmsnorm_kernel.cpp
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rmsnorm_kernel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rmsnorm_kernel.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/rmsnorm_kernel.cpp > CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rmsnorm_kernel.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/rmsnorm_kernel.cpp > CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rmsnorm_kernel.cpp.i
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rmsnorm_kernel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rmsnorm_kernel.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/rmsnorm_kernel.cpp -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rmsnorm_kernel.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/rmsnorm_kernel.cpp -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rmsnorm_kernel.cpp.s
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rope_kernel.cpp.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rope_kernel.cpp.o: ../kuiper/source/op/kernels/cpu/rope_kernel.cpp
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rope_kernel.cpp.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rope_kernel.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rope_kernel.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rope_kernel.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rope_kernel.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/rope_kernel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rope_kernel.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rope_kernel.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rope_kernel.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rope_kernel.cpp.o -c /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/rope_kernel.cpp
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rope_kernel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rope_kernel.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/rope_kernel.cpp > CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rope_kernel.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/rope_kernel.cpp > CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rope_kernel.cpp.i
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rope_kernel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rope_kernel.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/rope_kernel.cpp -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rope_kernel.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/rope_kernel.cpp -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/rope_kernel.cpp.s
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_kernel.cpp.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_kernel.cpp.o: ../kuiper/source/op/kernels/cpu/scale_kernel.cpp
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_kernel.cpp.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_kernel.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_kernel.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_kernel.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_kernel.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/scale_kernel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_kernel.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_kernel.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_kernel.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_kernel.cpp.o -c /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/scale_kernel.cpp
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_kernel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_kernel.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/scale_kernel.cpp > CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_kernel.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/scale_kernel.cpp > CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_kernel.cpp.i
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_kernel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_kernel.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/scale_kernel.cpp -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_kernel.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/scale_kernel.cpp -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_kernel.cpp.s
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_sum_kernel.cpp.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_sum_kernel.cpp.o: ../kuiper/source/op/kernels/cpu/scale_sum_kernel.cpp
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_sum_kernel.cpp.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_sum_kernel.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_sum_kernel.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_sum_kernel.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_sum_kernel.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/scale_sum_kernel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_sum_kernel.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_sum_kernel.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_sum_kernel.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_sum_kernel.cpp.o -c /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/scale_sum_kernel.cpp
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_sum_kernel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_sum_kernel.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/scale_sum_kernel.cpp > CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_sum_kernel.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/scale_sum_kernel.cpp > CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_sum_kernel.cpp.i
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_sum_kernel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_sum_kernel.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/scale_sum_kernel.cpp -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_sum_kernel.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/scale_sum_kernel.cpp -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/scale_sum_kernel.cpp.s
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/softmax_kernel.cpp.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/softmax_kernel.cpp.o: ../kuiper/source/op/kernels/cpu/softmax_kernel.cpp
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/softmax_kernel.cpp.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/softmax_kernel.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/softmax_kernel.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/softmax_kernel.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/softmax_kernel.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/softmax_kernel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/softmax_kernel.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/softmax_kernel.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/softmax_kernel.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/softmax_kernel.cpp.o -c /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/softmax_kernel.cpp
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/softmax_kernel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/softmax_kernel.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/softmax_kernel.cpp > CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/softmax_kernel.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/softmax_kernel.cpp > CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/softmax_kernel.cpp.i
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/softmax_kernel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/softmax_kernel.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/softmax_kernel.cpp -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/softmax_kernel.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/softmax_kernel.cpp -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/softmax_kernel.cpp.s
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/swiglu_kernel.cpp.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/swiglu_kernel.cpp.o: ../kuiper/source/op/kernels/cpu/swiglu_kernel.cpp
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/swiglu_kernel.cpp.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/swiglu_kernel.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/swiglu_kernel.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/swiglu_kernel.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/swiglu_kernel.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/swiglu_kernel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/swiglu_kernel.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/swiglu_kernel.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/swiglu_kernel.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/swiglu_kernel.cpp.o -c /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/swiglu_kernel.cpp
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/swiglu_kernel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/swiglu_kernel.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/swiglu_kernel.cpp > CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/swiglu_kernel.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/swiglu_kernel.cpp > CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/swiglu_kernel.cpp.i
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/swiglu_kernel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/swiglu_kernel.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/swiglu_kernel.cpp -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/swiglu_kernel.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/swiglu_kernel.cpp -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/swiglu_kernel.cpp.s
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/add_kernel.cu.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/add_kernel.cu.o: ../kuiper/source/op/kernels/cuda/add_kernel.cu
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/add_kernel.cu.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CUDA object CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/add_kernel.cu.o"
-	/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/add_kernel.cu.o -MF CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/add_kernel.cu.o.d -x cu -dc /home/colacat/KuiperLLama/kuiper/source/op/kernels/cuda/add_kernel.cu -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/add_kernel.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CUDA object CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/add_kernel.cu.o"
+	/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/add_kernel.cu.o -MF CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/add_kernel.cu.o.d -x cu -dc /home/colacat/maomao_infer/kuiper/source/op/kernels/cuda/add_kernel.cu -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/add_kernel.cu.o
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/add_kernel.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/add_kernel.cu.i"
@@ -534,8 +604,8 @@ CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/add_kernel.cu.s: cmake_force
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/argmax_kernel.cu.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/argmax_kernel.cu.o: ../kuiper/source/op/kernels/cuda/argmax_kernel.cu
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/argmax_kernel.cu.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CUDA object CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/argmax_kernel.cu.o"
-	/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/argmax_kernel.cu.o -MF CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/argmax_kernel.cu.o.d -x cu -dc /home/colacat/KuiperLLama/kuiper/source/op/kernels/cuda/argmax_kernel.cu -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/argmax_kernel.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CUDA object CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/argmax_kernel.cu.o"
+	/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/argmax_kernel.cu.o -MF CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/argmax_kernel.cu.o.d -x cu -dc /home/colacat/maomao_infer/kuiper/source/op/kernels/cuda/argmax_kernel.cu -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/argmax_kernel.cu.o
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/argmax_kernel.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/argmax_kernel.cu.i"
@@ -548,8 +618,8 @@ CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/argmax_kernel.cu.s: cmake_for
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/emb_kernel.cu.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/emb_kernel.cu.o: ../kuiper/source/op/kernels/cuda/emb_kernel.cu
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/emb_kernel.cu.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CUDA object CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/emb_kernel.cu.o"
-	/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/emb_kernel.cu.o -MF CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/emb_kernel.cu.o.d -x cu -dc /home/colacat/KuiperLLama/kuiper/source/op/kernels/cuda/emb_kernel.cu -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/emb_kernel.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CUDA object CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/emb_kernel.cu.o"
+	/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/emb_kernel.cu.o -MF CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/emb_kernel.cu.o.d -x cu -dc /home/colacat/maomao_infer/kuiper/source/op/kernels/cuda/emb_kernel.cu -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/emb_kernel.cu.o
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/emb_kernel.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/emb_kernel.cu.i"
@@ -562,8 +632,8 @@ CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/emb_kernel.cu.s: cmake_force
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/matmul_kernel.cu.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/matmul_kernel.cu.o: ../kuiper/source/op/kernels/cuda/matmul_kernel.cu
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/matmul_kernel.cu.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CUDA object CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/matmul_kernel.cu.o"
-	/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/matmul_kernel.cu.o -MF CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/matmul_kernel.cu.o.d -x cu -dc /home/colacat/KuiperLLama/kuiper/source/op/kernels/cuda/matmul_kernel.cu -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/matmul_kernel.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CUDA object CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/matmul_kernel.cu.o"
+	/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/matmul_kernel.cu.o -MF CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/matmul_kernel.cu.o.d -x cu -dc /home/colacat/maomao_infer/kuiper/source/op/kernels/cuda/matmul_kernel.cu -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/matmul_kernel.cu.o
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/matmul_kernel.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/matmul_kernel.cu.i"
@@ -576,8 +646,8 @@ CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/matmul_kernel.cu.s: cmake_for
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/mha_kernel.cu.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/mha_kernel.cu.o: ../kuiper/source/op/kernels/cuda/mha_kernel.cu
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/mha_kernel.cu.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CUDA object CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/mha_kernel.cu.o"
-	/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/mha_kernel.cu.o -MF CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/mha_kernel.cu.o.d -x cu -dc /home/colacat/KuiperLLama/kuiper/source/op/kernels/cuda/mha_kernel.cu -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/mha_kernel.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CUDA object CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/mha_kernel.cu.o"
+	/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/mha_kernel.cu.o -MF CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/mha_kernel.cu.o.d -x cu -dc /home/colacat/maomao_infer/kuiper/source/op/kernels/cuda/mha_kernel.cu -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/mha_kernel.cu.o
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/mha_kernel.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/mha_kernel.cu.i"
@@ -590,8 +660,8 @@ CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/mha_kernel.cu.s: cmake_force
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/rmsnorm_kernel.cu.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/rmsnorm_kernel.cu.o: ../kuiper/source/op/kernels/cuda/rmsnorm_kernel.cu
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/rmsnorm_kernel.cu.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CUDA object CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/rmsnorm_kernel.cu.o"
-	/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/rmsnorm_kernel.cu.o -MF CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/rmsnorm_kernel.cu.o.d -x cu -dc /home/colacat/KuiperLLama/kuiper/source/op/kernels/cuda/rmsnorm_kernel.cu -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/rmsnorm_kernel.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CUDA object CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/rmsnorm_kernel.cu.o"
+	/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/rmsnorm_kernel.cu.o -MF CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/rmsnorm_kernel.cu.o.d -x cu -dc /home/colacat/maomao_infer/kuiper/source/op/kernels/cuda/rmsnorm_kernel.cu -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/rmsnorm_kernel.cu.o
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/rmsnorm_kernel.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/rmsnorm_kernel.cu.i"
@@ -604,8 +674,8 @@ CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/rmsnorm_kernel.cu.s: cmake_fo
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/rope_kernel.cu.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/rope_kernel.cu.o: ../kuiper/source/op/kernels/cuda/rope_kernel.cu
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/rope_kernel.cu.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CUDA object CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/rope_kernel.cu.o"
-	/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/rope_kernel.cu.o -MF CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/rope_kernel.cu.o.d -x cu -dc /home/colacat/KuiperLLama/kuiper/source/op/kernels/cuda/rope_kernel.cu -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/rope_kernel.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CUDA object CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/rope_kernel.cu.o"
+	/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/rope_kernel.cu.o -MF CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/rope_kernel.cu.o.d -x cu -dc /home/colacat/maomao_infer/kuiper/source/op/kernels/cuda/rope_kernel.cu -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/rope_kernel.cu.o
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/rope_kernel.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/rope_kernel.cu.i"
@@ -618,8 +688,8 @@ CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/rope_kernel.cu.s: cmake_force
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/swiglu_kernel.cu.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/swiglu_kernel.cu.o: ../kuiper/source/op/kernels/cuda/swiglu_kernel.cu
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/swiglu_kernel.cu.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CUDA object CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/swiglu_kernel.cu.o"
-	/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/swiglu_kernel.cu.o -MF CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/swiglu_kernel.cu.o.d -x cu -dc /home/colacat/KuiperLLama/kuiper/source/op/kernels/cuda/swiglu_kernel.cu -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/swiglu_kernel.cu.o
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CUDA object CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/swiglu_kernel.cu.o"
+	/usr/local/cuda/bin/nvcc -forward-unknown-to-host-compiler $(CUDA_DEFINES) $(CUDA_INCLUDES) $(CUDA_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/swiglu_kernel.cu.o -MF CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/swiglu_kernel.cu.o.d -x cu -dc /home/colacat/maomao_infer/kuiper/source/op/kernels/cuda/swiglu_kernel.cu -o CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/swiglu_kernel.cu.o
 
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/swiglu_kernel.cu.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CUDA source to CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/swiglu_kernel.cu.i"
@@ -632,16 +702,16 @@ CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/swiglu_kernel.cu.s: cmake_for
 CMakeFiles/llama.dir/kuiper/source/sampler/argmax_sampler.cpp.o: CMakeFiles/llama.dir/flags.make
 CMakeFiles/llama.dir/kuiper/source/sampler/argmax_sampler.cpp.o: ../kuiper/source/sampler/argmax_sampler.cpp
 CMakeFiles/llama.dir/kuiper/source/sampler/argmax_sampler.cpp.o: CMakeFiles/llama.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object CMakeFiles/llama.dir/kuiper/source/sampler/argmax_sampler.cpp.o"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/sampler/argmax_sampler.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/sampler/argmax_sampler.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/sampler/argmax_sampler.cpp.o -c /home/colacat/KuiperLLama/kuiper/source/sampler/argmax_sampler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object CMakeFiles/llama.dir/kuiper/source/sampler/argmax_sampler.cpp.o"
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/llama.dir/kuiper/source/sampler/argmax_sampler.cpp.o -MF CMakeFiles/llama.dir/kuiper/source/sampler/argmax_sampler.cpp.o.d -o CMakeFiles/llama.dir/kuiper/source/sampler/argmax_sampler.cpp.o -c /home/colacat/maomao_infer/kuiper/source/sampler/argmax_sampler.cpp
 
 CMakeFiles/llama.dir/kuiper/source/sampler/argmax_sampler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/llama.dir/kuiper/source/sampler/argmax_sampler.cpp.i"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/KuiperLLama/kuiper/source/sampler/argmax_sampler.cpp > CMakeFiles/llama.dir/kuiper/source/sampler/argmax_sampler.cpp.i
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/colacat/maomao_infer/kuiper/source/sampler/argmax_sampler.cpp > CMakeFiles/llama.dir/kuiper/source/sampler/argmax_sampler.cpp.i
 
 CMakeFiles/llama.dir/kuiper/source/sampler/argmax_sampler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/llama.dir/kuiper/source/sampler/argmax_sampler.cpp.s"
-	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/KuiperLLama/kuiper/source/sampler/argmax_sampler.cpp -o CMakeFiles/llama.dir/kuiper/source/sampler/argmax_sampler.cpp.s
+	/usr/bin/g++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/colacat/maomao_infer/kuiper/source/sampler/argmax_sampler.cpp -o CMakeFiles/llama.dir/kuiper/source/sampler/argmax_sampler.cpp.s
 
 # Object files for target llama
 llama_OBJECTS = \
@@ -651,6 +721,11 @@ llama_OBJECTS = \
 "CMakeFiles/llama.dir/kuiper/source/base/alloc_cu.cpp.o" \
 "CMakeFiles/llama.dir/kuiper/source/base/base.cpp.o" \
 "CMakeFiles/llama.dir/kuiper/source/base/buffer.cpp.o" \
+"CMakeFiles/llama.dir/kuiper/source/base/m_alloc.cpp.o" \
+"CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cpu.cpp.o" \
+"CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cu.cpp.o" \
+"CMakeFiles/llama.dir/kuiper/source/base/m_base.cpp.o" \
+"CMakeFiles/llama.dir/kuiper/source/base/m_buffer.cpp.o" \
 "CMakeFiles/llama.dir/kuiper/source/base/unicode-data.cpp.o" \
 "CMakeFiles/llama.dir/kuiper/source/base/unicode.cpp.o" \
 "CMakeFiles/llama.dir/kuiper/source/op/add.cpp.o" \
@@ -696,6 +771,11 @@ CMakeFiles/llama.dir/cmake_device_link.o: CMakeFiles/llama.dir/kuiper/source/bas
 CMakeFiles/llama.dir/cmake_device_link.o: CMakeFiles/llama.dir/kuiper/source/base/alloc_cu.cpp.o
 CMakeFiles/llama.dir/cmake_device_link.o: CMakeFiles/llama.dir/kuiper/source/base/base.cpp.o
 CMakeFiles/llama.dir/cmake_device_link.o: CMakeFiles/llama.dir/kuiper/source/base/buffer.cpp.o
+CMakeFiles/llama.dir/cmake_device_link.o: CMakeFiles/llama.dir/kuiper/source/base/m_alloc.cpp.o
+CMakeFiles/llama.dir/cmake_device_link.o: CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cpu.cpp.o
+CMakeFiles/llama.dir/cmake_device_link.o: CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cu.cpp.o
+CMakeFiles/llama.dir/cmake_device_link.o: CMakeFiles/llama.dir/kuiper/source/base/m_base.cpp.o
+CMakeFiles/llama.dir/cmake_device_link.o: CMakeFiles/llama.dir/kuiper/source/base/m_buffer.cpp.o
 CMakeFiles/llama.dir/cmake_device_link.o: CMakeFiles/llama.dir/kuiper/source/base/unicode-data.cpp.o
 CMakeFiles/llama.dir/cmake_device_link.o: CMakeFiles/llama.dir/kuiper/source/base/unicode.cpp.o
 CMakeFiles/llama.dir/cmake_device_link.o: CMakeFiles/llama.dir/kuiper/source/op/add.cpp.o
@@ -734,7 +814,7 @@ CMakeFiles/llama.dir/cmake_device_link.o: CMakeFiles/llama.dir/kuiper/source/sam
 CMakeFiles/llama.dir/cmake_device_link.o: CMakeFiles/llama.dir/build.make
 CMakeFiles/llama.dir/cmake_device_link.o: /usr/local/lib/libglog.so.0.8.0
 CMakeFiles/llama.dir/cmake_device_link.o: CMakeFiles/llama.dir/dlink.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Linking CUDA device code CMakeFiles/llama.dir/cmake_device_link.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Linking CUDA device code CMakeFiles/llama.dir/cmake_device_link.o"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama.dir/dlink.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -749,6 +829,11 @@ llama_OBJECTS = \
 "CMakeFiles/llama.dir/kuiper/source/base/alloc_cu.cpp.o" \
 "CMakeFiles/llama.dir/kuiper/source/base/base.cpp.o" \
 "CMakeFiles/llama.dir/kuiper/source/base/buffer.cpp.o" \
+"CMakeFiles/llama.dir/kuiper/source/base/m_alloc.cpp.o" \
+"CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cpu.cpp.o" \
+"CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cu.cpp.o" \
+"CMakeFiles/llama.dir/kuiper/source/base/m_base.cpp.o" \
+"CMakeFiles/llama.dir/kuiper/source/base/m_buffer.cpp.o" \
 "CMakeFiles/llama.dir/kuiper/source/base/unicode-data.cpp.o" \
 "CMakeFiles/llama.dir/kuiper/source/base/unicode.cpp.o" \
 "CMakeFiles/llama.dir/kuiper/source/op/add.cpp.o" \
@@ -794,6 +879,11 @@ llama_EXTERNAL_OBJECTS =
 ../lib/libllama.so: CMakeFiles/llama.dir/kuiper/source/base/alloc_cu.cpp.o
 ../lib/libllama.so: CMakeFiles/llama.dir/kuiper/source/base/base.cpp.o
 ../lib/libllama.so: CMakeFiles/llama.dir/kuiper/source/base/buffer.cpp.o
+../lib/libllama.so: CMakeFiles/llama.dir/kuiper/source/base/m_alloc.cpp.o
+../lib/libllama.so: CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cpu.cpp.o
+../lib/libllama.so: CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cu.cpp.o
+../lib/libllama.so: CMakeFiles/llama.dir/kuiper/source/base/m_base.cpp.o
+../lib/libllama.so: CMakeFiles/llama.dir/kuiper/source/base/m_buffer.cpp.o
 ../lib/libllama.so: CMakeFiles/llama.dir/kuiper/source/base/unicode-data.cpp.o
 ../lib/libllama.so: CMakeFiles/llama.dir/kuiper/source/base/unicode.cpp.o
 ../lib/libllama.so: CMakeFiles/llama.dir/kuiper/source/op/add.cpp.o
@@ -833,7 +923,7 @@ llama_EXTERNAL_OBJECTS =
 ../lib/libllama.so: /usr/local/lib/libglog.so.0.8.0
 ../lib/libllama.so: CMakeFiles/llama.dir/cmake_device_link.o
 ../lib/libllama.so: CMakeFiles/llama.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/colacat/KuiperLLama/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Linking CXX shared library ../lib/libllama.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/colacat/maomao_infer/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Linking CXX shared library ../lib/libllama.so"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/llama.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -845,6 +935,6 @@ CMakeFiles/llama.dir/clean:
 .PHONY : CMakeFiles/llama.dir/clean
 
 CMakeFiles/llama.dir/depend:
-	cd /home/colacat/KuiperLLama/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/colacat/KuiperLLama /home/colacat/KuiperLLama /home/colacat/KuiperLLama/build /home/colacat/KuiperLLama/build /home/colacat/KuiperLLama/build/CMakeFiles/llama.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/colacat/maomao_infer/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/colacat/maomao_infer /home/colacat/maomao_infer /home/colacat/maomao_infer/build /home/colacat/maomao_infer/build /home/colacat/maomao_infer/build/CMakeFiles/llama.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/llama.dir/depend
 

@@ -1,7 +1,7 @@
 CMakeFiles/llama.dir/kuiper/source/op/kernels/kernels_interfaces.cpp.o: \
- /home/colacat/KuiperLLama/kuiper/source/op/kernels/kernels_interfaces.cpp \
+ /home/colacat/maomao_infer/kuiper/source/op/kernels/kernels_interfaces.cpp \
  /usr/include/stdc-predef.h \
- /home/colacat/KuiperLLama/kuiper/include/base/base.h \
+ /home/colacat/maomao_infer/kuiper/include/base/base.h \
  /usr/local/include/glog/logging.h /usr/include/c++/11/atomic \
  /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -182,8 +182,8 @@ CMakeFiles/llama.dir/kuiper/source/op/kernels/kernels_interfaces.cpp.o: \
  /usr/local/include/glog/flags.h /usr/local/include/glog/platform.h \
  /usr/local/include/glog/types.h /usr/local/include/glog/log_severity.h \
  /usr/local/include/glog/vlog_is_on.h \
- /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/add_kernel.h \
- /home/colacat/KuiperLLama/kuiper/include/tensor/tensor.h \
+ /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/add_kernel.h \
+ /home/colacat/maomao_infer/kuiper/include/tensor/tensor.h \
  /usr/local/cuda/include/driver_types.h \
  /usr/local/cuda/include/crt/host_defines.h \
  /usr/local/cuda/include/vector_types.h \
@@ -887,12 +887,12 @@ CMakeFiles/llama.dir/kuiper/source/op/kernels/kernels_interfaces.cpp.o: \
  /usr/include/armadillo_bits/newarp_UpperHessenbergEigen_meat.hpp \
  /usr/include/armadillo_bits/newarp_UpperHessenbergQR_meat.hpp \
  /usr/include/armadillo_bits/compiler_setup_post.hpp \
- /home/colacat/KuiperLLama/kuiper/include/base/buffer.h \
- /home/colacat/KuiperLLama/kuiper/include/base/alloc.h \
- /home/colacat/KuiperLLama/kuiper/include/base/base.h \
- /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/emb_kernel.h \
- /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/matmul_kernel.h \
- /home/colacat/KuiperLLama/kuiper/include/base/cuda_config.h \
+ /home/colacat/maomao_infer/kuiper/include/base/buffer.h \
+ /home/colacat/maomao_infer/kuiper/include/base/alloc.h \
+ /home/colacat/maomao_infer/kuiper/include/base/base.h \
+ /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/emb_kernel.h \
+ /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/matmul_kernel.h \
+ /home/colacat/maomao_infer/kuiper/include/base/cuda_config.h \
  /usr/local/cuda/include/cublas_v2.h /usr/local/cuda/include/cublas_api.h \
  /usr/local/cuda/include/driver_types.h \
  /usr/local/cuda/include/cuComplex.h /usr/include/c++/11/math.h \
@@ -913,19 +913,19 @@ CMakeFiles/llama.dir/kuiper/source/op/kernels/kernels_interfaces.cpp.o: \
  /usr/local/cuda/include/cuda_bf16.hpp \
  /usr/local/cuda/include/library_types.h \
  /usr/local/cuda/include/cuda_runtime_api.h \
- /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/mha_kernel.h \
- /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/rmsnorm_kernel.h \
- /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/rope_kernel.h \
- /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/scale_kernel.h \
- /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/scale_sum_kernel.h \
- /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/softmax_kernel.h \
- /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/swiglu_kernel.h \
- /home/colacat/KuiperLLama/kuiper/source/op/kernels/cuda/add_kernel.cuh \
- /home/colacat/KuiperLLama/kuiper/source/op/kernels/cuda/emb_kernel.cuh \
- /home/colacat/KuiperLLama/kuiper/source/op/kernels/cuda/matmul_kernel.cuh \
- /home/colacat/KuiperLLama/kuiper/source/op/kernels/cuda/../kernels_interface.h \
- /home/colacat/KuiperLLama/kuiper/source/op/kernels/cuda/mha_kernel.cuh \
- /home/colacat/KuiperLLama/kuiper/source/op/kernels/cuda/rmsnorm_kernel.cuh \
- /home/colacat/KuiperLLama/kuiper/source/op/kernels/cuda/rope_kernel.cuh \
- /home/colacat/KuiperLLama/kuiper/source/op/kernels/cuda/swiglu_kernel.cuh \
- /home/colacat/KuiperLLama/kuiper/source/op/kernels/kernels_interface.h
+ /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/mha_kernel.h \
+ /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/rmsnorm_kernel.h \
+ /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/rope_kernel.h \
+ /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/scale_kernel.h \
+ /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/scale_sum_kernel.h \
+ /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/softmax_kernel.h \
+ /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/swiglu_kernel.h \
+ /home/colacat/maomao_infer/kuiper/source/op/kernels/cuda/add_kernel.cuh \
+ /home/colacat/maomao_infer/kuiper/source/op/kernels/cuda/emb_kernel.cuh \
+ /home/colacat/maomao_infer/kuiper/source/op/kernels/cuda/matmul_kernel.cuh \
+ /home/colacat/maomao_infer/kuiper/source/op/kernels/cuda/../kernels_interface.h \
+ /home/colacat/maomao_infer/kuiper/source/op/kernels/cuda/mha_kernel.cuh \
+ /home/colacat/maomao_infer/kuiper/source/op/kernels/cuda/rmsnorm_kernel.cuh \
+ /home/colacat/maomao_infer/kuiper/source/op/kernels/cuda/rope_kernel.cuh \
+ /home/colacat/maomao_infer/kuiper/source/op/kernels/cuda/swiglu_kernel.cuh \
+ /home/colacat/maomao_infer/kuiper/source/op/kernels/kernels_interface.h

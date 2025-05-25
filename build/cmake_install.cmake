@@ -1,4 +1,4 @@
-# Install script for directory: /home/colacat/KuiperLLama
+# Install script for directory: /home/colacat/maomao_infer
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,12 +44,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/colacat/KuiperLLama/build/test/cmake_install.cmake")
+  include("/home/colacat/maomao_infer/build/test/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/colacat/KuiperLLama/build/demo/cmake_install.cmake")
+  include("/home/colacat/maomao_infer/build/demo/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -60,5 +60,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/colacat/KuiperLLama/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/colacat/maomao_infer/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

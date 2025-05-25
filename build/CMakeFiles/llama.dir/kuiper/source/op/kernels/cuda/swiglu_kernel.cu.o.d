@@ -1,4 +1,4 @@
-CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/swiglu_kernel.cu.o : /home/colacat/KuiperLLama/kuiper/source/op/kernels/cuda/swiglu_kernel.cu \
+CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/swiglu_kernel.cu.o : /home/colacat/maomao_infer/kuiper/source/op/kernels/cuda/swiglu_kernel.cu \
     /usr/include/stdc-predef.h \
     /usr/local/cuda/include/cuda_runtime.h \
     /usr/local/cuda/include/crt/host_config.h \
@@ -155,7 +155,7 @@ CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/swiglu_kernel.cu.o : /home/co
     /usr/include/c++/11/bits/move.h \
     /usr/include/c++/11/type_traits \
     /usr/include/c++/11/initializer_list \
-    /home/colacat/KuiperLLama/kuiper/include/tensor/tensor.h \
+    /home/colacat/maomao_infer/kuiper/include/tensor/tensor.h \
     /usr/local/include/glog/logging.h \
     /usr/include/c++/11/atomic \
     /usr/include/c++/11/bits/atomic_base.h \
@@ -975,7 +975,7 @@ CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/swiglu_kernel.cu.o : /home/co
     /usr/include/armadillo_bits/newarp_UpperHessenbergEigen_meat.hpp \
     /usr/include/armadillo_bits/newarp_UpperHessenbergQR_meat.hpp \
     /usr/include/armadillo_bits/compiler_setup_post.hpp \
-    /home/colacat/KuiperLLama/kuiper/include/base/base.h \
-    /home/colacat/KuiperLLama/kuiper/include/base/buffer.h \
-    /home/colacat/KuiperLLama/kuiper/include/base/alloc.h \
-    /home/colacat/KuiperLLama/kuiper/source/op/kernels/cuda/swiglu_kernel.cuh
+    /home/colacat/maomao_infer/kuiper/include/base/base.h \
+    /home/colacat/maomao_infer/kuiper/include/base/buffer.h \
+    /home/colacat/maomao_infer/kuiper/include/base/alloc.h \
+    /home/colacat/maomao_infer/kuiper/source/op/kernels/cuda/swiglu_kernel.cuh

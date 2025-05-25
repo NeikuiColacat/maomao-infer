@@ -1,7 +1,7 @@
 CMakeFiles/llama.dir/kuiper/source/base/base.cpp.o: \
- /home/colacat/KuiperLLama/kuiper/source/base/base.cpp \
+ /home/colacat/maomao_infer/kuiper/source/base/base.cpp \
  /usr/include/stdc-predef.h \
- /home/colacat/KuiperLLama/kuiper/include/base/base.h \
+ /home/colacat/maomao_infer/kuiper/include/base/base.h \
  /usr/local/include/glog/logging.h /usr/include/c++/11/atomic \
  /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

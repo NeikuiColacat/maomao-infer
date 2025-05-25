@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/colacat/KuiperLLama
+CMAKE_SOURCE_DIR = /home/colacat/maomao_infer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/colacat/KuiperLLama/build
+CMAKE_BINARY_DIR = /home/colacat/maomao_infer/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/colacat/KuiperLLama/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/colacat/KuiperLLama/build/CMakeFiles /home/colacat/KuiperLLama/build/test//CMakeFiles/progress.marks
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/colacat/KuiperLLama/build/CMakeFiles 0
+	cd /home/colacat/maomao_infer/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/colacat/maomao_infer/build/CMakeFiles /home/colacat/maomao_infer/build/test//CMakeFiles/progress.marks
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/colacat/maomao_infer/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/clean
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/colacat/KuiperLLama/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/colacat/maomao_infer/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 test/CMakeFiles/test_llm.dir/rule:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/test_llm.dir/rule
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 test/CMakeFiles/test_llm.dir/rule
 .PHONY : test/CMakeFiles/test_llm.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ test_llm: test/CMakeFiles/test_llm.dir/rule
 
 # fast build rule for target.
 test_llm/fast:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/build
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/build
 .PHONY : test_llm/fast
 
 optimized/test_allocator.o: optimized/test_allocator.cpp.o
@@ -135,7 +135,7 @@ optimized/test_allocator.o: optimized/test_allocator.cpp.o
 
 # target to build an object file
 optimized/test_allocator.cpp.o:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/optimized/test_allocator.cpp.o
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/optimized/test_allocator.cpp.o
 .PHONY : optimized/test_allocator.cpp.o
 
 optimized/test_allocator.i: optimized/test_allocator.cpp.i
@@ -143,7 +143,7 @@ optimized/test_allocator.i: optimized/test_allocator.cpp.i
 
 # target to preprocess a source file
 optimized/test_allocator.cpp.i:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/optimized/test_allocator.cpp.i
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/optimized/test_allocator.cpp.i
 .PHONY : optimized/test_allocator.cpp.i
 
 optimized/test_allocator.s: optimized/test_allocator.cpp.s
@@ -151,7 +151,7 @@ optimized/test_allocator.s: optimized/test_allocator.cpp.s
 
 # target to generate assembly for a file
 optimized/test_allocator.cpp.s:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/optimized/test_allocator.cpp.s
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/optimized/test_allocator.cpp.s
 .PHONY : optimized/test_allocator.cpp.s
 
 test_cu/test_cu_wrap.o: test_cu/test_cu_wrap.cpp.o
@@ -159,7 +159,7 @@ test_cu/test_cu_wrap.o: test_cu/test_cu_wrap.cpp.o
 
 # target to build an object file
 test_cu/test_cu_wrap.cpp.o:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_cu/test_cu_wrap.cpp.o
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_cu/test_cu_wrap.cpp.o
 .PHONY : test_cu/test_cu_wrap.cpp.o
 
 test_cu/test_cu_wrap.i: test_cu/test_cu_wrap.cpp.i
@@ -167,7 +167,7 @@ test_cu/test_cu_wrap.i: test_cu/test_cu_wrap.cpp.i
 
 # target to preprocess a source file
 test_cu/test_cu_wrap.cpp.i:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_cu/test_cu_wrap.cpp.i
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_cu/test_cu_wrap.cpp.i
 .PHONY : test_cu/test_cu_wrap.cpp.i
 
 test_cu/test_cu_wrap.s: test_cu/test_cu_wrap.cpp.s
@@ -175,7 +175,7 @@ test_cu/test_cu_wrap.s: test_cu/test_cu_wrap.cpp.s
 
 # target to generate assembly for a file
 test_cu/test_cu_wrap.cpp.s:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_cu/test_cu_wrap.cpp.s
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_cu/test_cu_wrap.cpp.s
 .PHONY : test_cu/test_cu_wrap.cpp.s
 
 test_main.o: test_main.cpp.o
@@ -183,7 +183,7 @@ test_main.o: test_main.cpp.o
 
 # target to build an object file
 test_main.cpp.o:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_main.cpp.o
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_main.cpp.o
 .PHONY : test_main.cpp.o
 
 test_main.i: test_main.cpp.i
@@ -191,7 +191,7 @@ test_main.i: test_main.cpp.i
 
 # target to preprocess a source file
 test_main.cpp.i:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_main.cpp.i
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_main.cpp.i
 .PHONY : test_main.cpp.i
 
 test_main.s: test_main.cpp.s
@@ -199,7 +199,7 @@ test_main.s: test_main.cpp.s
 
 # target to generate assembly for a file
 test_main.cpp.s:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_main.cpp.s
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_main.cpp.s
 .PHONY : test_main.cpp.s
 
 test_model/test_llama_cpu.o: test_model/test_llama_cpu.cpp.o
@@ -207,7 +207,7 @@ test_model/test_llama_cpu.o: test_model/test_llama_cpu.cpp.o
 
 # target to build an object file
 test_model/test_llama_cpu.cpp.o:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_model/test_llama_cpu.cpp.o
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_model/test_llama_cpu.cpp.o
 .PHONY : test_model/test_llama_cpu.cpp.o
 
 test_model/test_llama_cpu.i: test_model/test_llama_cpu.cpp.i
@@ -215,7 +215,7 @@ test_model/test_llama_cpu.i: test_model/test_llama_cpu.cpp.i
 
 # target to preprocess a source file
 test_model/test_llama_cpu.cpp.i:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_model/test_llama_cpu.cpp.i
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_model/test_llama_cpu.cpp.i
 .PHONY : test_model/test_llama_cpu.cpp.i
 
 test_model/test_llama_cpu.s: test_model/test_llama_cpu.cpp.s
@@ -223,7 +223,7 @@ test_model/test_llama_cpu.s: test_model/test_llama_cpu.cpp.s
 
 # target to generate assembly for a file
 test_model/test_llama_cpu.cpp.s:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_model/test_llama_cpu.cpp.s
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_model/test_llama_cpu.cpp.s
 .PHONY : test_model/test_llama_cpu.cpp.s
 
 test_op/test_cu_add.o: test_op/test_cu_add.cpp.o
@@ -231,7 +231,7 @@ test_op/test_cu_add.o: test_op/test_cu_add.cpp.o
 
 # target to build an object file
 test_op/test_cu_add.cpp.o:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_add.cpp.o
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_add.cpp.o
 .PHONY : test_op/test_cu_add.cpp.o
 
 test_op/test_cu_add.i: test_op/test_cu_add.cpp.i
@@ -239,7 +239,7 @@ test_op/test_cu_add.i: test_op/test_cu_add.cpp.i
 
 # target to preprocess a source file
 test_op/test_cu_add.cpp.i:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_add.cpp.i
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_add.cpp.i
 .PHONY : test_op/test_cu_add.cpp.i
 
 test_op/test_cu_add.s: test_op/test_cu_add.cpp.s
@@ -247,7 +247,7 @@ test_op/test_cu_add.s: test_op/test_cu_add.cpp.s
 
 # target to generate assembly for a file
 test_op/test_cu_add.cpp.s:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_add.cpp.s
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_add.cpp.s
 .PHONY : test_op/test_cu_add.cpp.s
 
 test_op/test_cu_emb.o: test_op/test_cu_emb.cpp.o
@@ -255,7 +255,7 @@ test_op/test_cu_emb.o: test_op/test_cu_emb.cpp.o
 
 # target to build an object file
 test_op/test_cu_emb.cpp.o:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_emb.cpp.o
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_emb.cpp.o
 .PHONY : test_op/test_cu_emb.cpp.o
 
 test_op/test_cu_emb.i: test_op/test_cu_emb.cpp.i
@@ -263,7 +263,7 @@ test_op/test_cu_emb.i: test_op/test_cu_emb.cpp.i
 
 # target to preprocess a source file
 test_op/test_cu_emb.cpp.i:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_emb.cpp.i
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_emb.cpp.i
 .PHONY : test_op/test_cu_emb.cpp.i
 
 test_op/test_cu_emb.s: test_op/test_cu_emb.cpp.s
@@ -271,7 +271,7 @@ test_op/test_cu_emb.s: test_op/test_cu_emb.cpp.s
 
 # target to generate assembly for a file
 test_op/test_cu_emb.cpp.s:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_emb.cpp.s
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_emb.cpp.s
 .PHONY : test_op/test_cu_emb.cpp.s
 
 test_op/test_cu_matmul.o: test_op/test_cu_matmul.cpp.o
@@ -279,7 +279,7 @@ test_op/test_cu_matmul.o: test_op/test_cu_matmul.cpp.o
 
 # target to build an object file
 test_op/test_cu_matmul.cpp.o:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_matmul.cpp.o
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_matmul.cpp.o
 .PHONY : test_op/test_cu_matmul.cpp.o
 
 test_op/test_cu_matmul.i: test_op/test_cu_matmul.cpp.i
@@ -287,7 +287,7 @@ test_op/test_cu_matmul.i: test_op/test_cu_matmul.cpp.i
 
 # target to preprocess a source file
 test_op/test_cu_matmul.cpp.i:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_matmul.cpp.i
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_matmul.cpp.i
 .PHONY : test_op/test_cu_matmul.cpp.i
 
 test_op/test_cu_matmul.s: test_op/test_cu_matmul.cpp.s
@@ -295,7 +295,7 @@ test_op/test_cu_matmul.s: test_op/test_cu_matmul.cpp.s
 
 # target to generate assembly for a file
 test_op/test_cu_matmul.cpp.s:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_matmul.cpp.s
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_matmul.cpp.s
 .PHONY : test_op/test_cu_matmul.cpp.s
 
 test_op/test_cu_rmsnorm.o: test_op/test_cu_rmsnorm.cpp.o
@@ -303,7 +303,7 @@ test_op/test_cu_rmsnorm.o: test_op/test_cu_rmsnorm.cpp.o
 
 # target to build an object file
 test_op/test_cu_rmsnorm.cpp.o:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_rmsnorm.cpp.o
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_rmsnorm.cpp.o
 .PHONY : test_op/test_cu_rmsnorm.cpp.o
 
 test_op/test_cu_rmsnorm.i: test_op/test_cu_rmsnorm.cpp.i
@@ -311,7 +311,7 @@ test_op/test_cu_rmsnorm.i: test_op/test_cu_rmsnorm.cpp.i
 
 # target to preprocess a source file
 test_op/test_cu_rmsnorm.cpp.i:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_rmsnorm.cpp.i
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_rmsnorm.cpp.i
 .PHONY : test_op/test_cu_rmsnorm.cpp.i
 
 test_op/test_cu_rmsnorm.s: test_op/test_cu_rmsnorm.cpp.s
@@ -319,7 +319,7 @@ test_op/test_cu_rmsnorm.s: test_op/test_cu_rmsnorm.cpp.s
 
 # target to generate assembly for a file
 test_op/test_cu_rmsnorm.cpp.s:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_rmsnorm.cpp.s
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_rmsnorm.cpp.s
 .PHONY : test_op/test_cu_rmsnorm.cpp.s
 
 test_op/test_cu_rope.o: test_op/test_cu_rope.cpp.o
@@ -327,7 +327,7 @@ test_op/test_cu_rope.o: test_op/test_cu_rope.cpp.o
 
 # target to build an object file
 test_op/test_cu_rope.cpp.o:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_rope.cpp.o
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_rope.cpp.o
 .PHONY : test_op/test_cu_rope.cpp.o
 
 test_op/test_cu_rope.i: test_op/test_cu_rope.cpp.i
@@ -335,7 +335,7 @@ test_op/test_cu_rope.i: test_op/test_cu_rope.cpp.i
 
 # target to preprocess a source file
 test_op/test_cu_rope.cpp.i:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_rope.cpp.i
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_rope.cpp.i
 .PHONY : test_op/test_cu_rope.cpp.i
 
 test_op/test_cu_rope.s: test_op/test_cu_rope.cpp.s
@@ -343,7 +343,7 @@ test_op/test_cu_rope.s: test_op/test_cu_rope.cpp.s
 
 # target to generate assembly for a file
 test_op/test_cu_rope.cpp.s:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_rope.cpp.s
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_rope.cpp.s
 .PHONY : test_op/test_cu_rope.cpp.s
 
 test_op/test_cu_scale.o: test_op/test_cu_scale.cpp.o
@@ -351,7 +351,7 @@ test_op/test_cu_scale.o: test_op/test_cu_scale.cpp.o
 
 # target to build an object file
 test_op/test_cu_scale.cpp.o:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_scale.cpp.o
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_scale.cpp.o
 .PHONY : test_op/test_cu_scale.cpp.o
 
 test_op/test_cu_scale.i: test_op/test_cu_scale.cpp.i
@@ -359,7 +359,7 @@ test_op/test_cu_scale.i: test_op/test_cu_scale.cpp.i
 
 # target to preprocess a source file
 test_op/test_cu_scale.cpp.i:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_scale.cpp.i
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_scale.cpp.i
 .PHONY : test_op/test_cu_scale.cpp.i
 
 test_op/test_cu_scale.s: test_op/test_cu_scale.cpp.s
@@ -367,7 +367,7 @@ test_op/test_cu_scale.s: test_op/test_cu_scale.cpp.s
 
 # target to generate assembly for a file
 test_op/test_cu_scale.cpp.s:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_scale.cpp.s
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_scale.cpp.s
 .PHONY : test_op/test_cu_scale.cpp.s
 
 test_op/test_cu_softmax.o: test_op/test_cu_softmax.cpp.o
@@ -375,7 +375,7 @@ test_op/test_cu_softmax.o: test_op/test_cu_softmax.cpp.o
 
 # target to build an object file
 test_op/test_cu_softmax.cpp.o:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_softmax.cpp.o
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_softmax.cpp.o
 .PHONY : test_op/test_cu_softmax.cpp.o
 
 test_op/test_cu_softmax.i: test_op/test_cu_softmax.cpp.i
@@ -383,7 +383,7 @@ test_op/test_cu_softmax.i: test_op/test_cu_softmax.cpp.i
 
 # target to preprocess a source file
 test_op/test_cu_softmax.cpp.i:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_softmax.cpp.i
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_softmax.cpp.i
 .PHONY : test_op/test_cu_softmax.cpp.i
 
 test_op/test_cu_softmax.s: test_op/test_cu_softmax.cpp.s
@@ -391,7 +391,7 @@ test_op/test_cu_softmax.s: test_op/test_cu_softmax.cpp.s
 
 # target to generate assembly for a file
 test_op/test_cu_softmax.cpp.s:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_softmax.cpp.s
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_softmax.cpp.s
 .PHONY : test_op/test_cu_softmax.cpp.s
 
 test_op/test_cu_swiglu.o: test_op/test_cu_swiglu.cpp.o
@@ -399,7 +399,7 @@ test_op/test_cu_swiglu.o: test_op/test_cu_swiglu.cpp.o
 
 # target to build an object file
 test_op/test_cu_swiglu.cpp.o:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_swiglu.cpp.o
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_swiglu.cpp.o
 .PHONY : test_op/test_cu_swiglu.cpp.o
 
 test_op/test_cu_swiglu.i: test_op/test_cu_swiglu.cpp.i
@@ -407,7 +407,7 @@ test_op/test_cu_swiglu.i: test_op/test_cu_swiglu.cpp.i
 
 # target to preprocess a source file
 test_op/test_cu_swiglu.cpp.i:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_swiglu.cpp.i
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_swiglu.cpp.i
 .PHONY : test_op/test_cu_swiglu.cpp.i
 
 test_op/test_cu_swiglu.s: test_op/test_cu_swiglu.cpp.s
@@ -415,7 +415,7 @@ test_op/test_cu_swiglu.s: test_op/test_cu_swiglu.cpp.s
 
 # target to generate assembly for a file
 test_op/test_cu_swiglu.cpp.s:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_swiglu.cpp.s
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_cu_swiglu.cpp.s
 .PHONY : test_op/test_cu_swiglu.cpp.s
 
 test_op/test_load.o: test_op/test_load.cpp.o
@@ -423,7 +423,7 @@ test_op/test_load.o: test_op/test_load.cpp.o
 
 # target to build an object file
 test_op/test_load.cpp.o:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_load.cpp.o
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_load.cpp.o
 .PHONY : test_op/test_load.cpp.o
 
 test_op/test_load.i: test_op/test_load.cpp.i
@@ -431,7 +431,7 @@ test_op/test_load.i: test_op/test_load.cpp.i
 
 # target to preprocess a source file
 test_op/test_load.cpp.i:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_load.cpp.i
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_load.cpp.i
 .PHONY : test_op/test_load.cpp.i
 
 test_op/test_load.s: test_op/test_load.cpp.s
@@ -439,7 +439,7 @@ test_op/test_load.s: test_op/test_load.cpp.s
 
 # target to generate assembly for a file
 test_op/test_load.cpp.s:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_load.cpp.s
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_op/test_load.cpp.s
 .PHONY : test_op/test_load.cpp.s
 
 test_tensor/test_buffer.o: test_tensor/test_buffer.cpp.o
@@ -447,7 +447,7 @@ test_tensor/test_buffer.o: test_tensor/test_buffer.cpp.o
 
 # target to build an object file
 test_tensor/test_buffer.cpp.o:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_tensor/test_buffer.cpp.o
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_tensor/test_buffer.cpp.o
 .PHONY : test_tensor/test_buffer.cpp.o
 
 test_tensor/test_buffer.i: test_tensor/test_buffer.cpp.i
@@ -455,7 +455,7 @@ test_tensor/test_buffer.i: test_tensor/test_buffer.cpp.i
 
 # target to preprocess a source file
 test_tensor/test_buffer.cpp.i:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_tensor/test_buffer.cpp.i
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_tensor/test_buffer.cpp.i
 .PHONY : test_tensor/test_buffer.cpp.i
 
 test_tensor/test_buffer.s: test_tensor/test_buffer.cpp.s
@@ -463,7 +463,7 @@ test_tensor/test_buffer.s: test_tensor/test_buffer.cpp.s
 
 # target to generate assembly for a file
 test_tensor/test_buffer.cpp.s:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_tensor/test_buffer.cpp.s
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_tensor/test_buffer.cpp.s
 .PHONY : test_tensor/test_buffer.cpp.s
 
 test_tensor/test_tensor.o: test_tensor/test_tensor.cpp.o
@@ -471,7 +471,7 @@ test_tensor/test_tensor.o: test_tensor/test_tensor.cpp.o
 
 # target to build an object file
 test_tensor/test_tensor.cpp.o:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_tensor/test_tensor.cpp.o
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_tensor/test_tensor.cpp.o
 .PHONY : test_tensor/test_tensor.cpp.o
 
 test_tensor/test_tensor.i: test_tensor/test_tensor.cpp.i
@@ -479,7 +479,7 @@ test_tensor/test_tensor.i: test_tensor/test_tensor.cpp.i
 
 # target to preprocess a source file
 test_tensor/test_tensor.cpp.i:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_tensor/test_tensor.cpp.i
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_tensor/test_tensor.cpp.i
 .PHONY : test_tensor/test_tensor.cpp.i
 
 test_tensor/test_tensor.s: test_tensor/test_tensor.cpp.s
@@ -487,7 +487,7 @@ test_tensor/test_tensor.s: test_tensor/test_tensor.cpp.s
 
 # target to generate assembly for a file
 test_tensor/test_tensor.cpp.s:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_tensor/test_tensor.cpp.s
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/test_tensor/test_tensor.cpp.s
 .PHONY : test_tensor/test_tensor.cpp.s
 
 utils.o: utils.cu.o
@@ -495,7 +495,7 @@ utils.o: utils.cu.o
 
 # target to build an object file
 utils.cu.o:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/utils.cu.o
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/utils.cu.o
 .PHONY : utils.cu.o
 
 utils.i: utils.cu.i
@@ -503,7 +503,7 @@ utils.i: utils.cu.i
 
 # target to preprocess a source file
 utils.cu.i:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/utils.cu.i
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/utils.cu.i
 .PHONY : utils.cu.i
 
 utils.s: utils.cu.s
@@ -511,7 +511,7 @@ utils.s: utils.cu.s
 
 # target to generate assembly for a file
 utils.cu.s:
-	cd /home/colacat/KuiperLLama/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/utils.cu.s
+	cd /home/colacat/maomao_infer/build && $(MAKE) $(MAKESILENT) -f test/CMakeFiles/test_llm.dir/build.make test/CMakeFiles/test_llm.dir/utils.cu.s
 .PHONY : utils.cu.s
 
 # Help Target
@@ -582,6 +582,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/colacat/KuiperLLama/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/colacat/maomao_infer/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

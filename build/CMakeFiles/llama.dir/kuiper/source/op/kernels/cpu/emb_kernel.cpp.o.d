@@ -1,8 +1,8 @@
 CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/emb_kernel.cpp.o: \
- /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/emb_kernel.cpp \
+ /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/emb_kernel.cpp \
  /usr/include/stdc-predef.h \
- /home/colacat/KuiperLLama/kuiper/source/op/kernels/cpu/emb_kernel.h \
- /home/colacat/KuiperLLama/kuiper/include/base/base.h \
+ /home/colacat/maomao_infer/kuiper/source/op/kernels/cpu/emb_kernel.h \
+ /home/colacat/maomao_infer/kuiper/include/base/base.h \
  /usr/local/include/glog/logging.h /usr/include/c++/11/atomic \
  /usr/include/c++/11/bits/atomic_base.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
@@ -183,7 +183,7 @@ CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/emb_kernel.cpp.o: \
  /usr/local/include/glog/flags.h /usr/local/include/glog/platform.h \
  /usr/local/include/glog/types.h /usr/local/include/glog/log_severity.h \
  /usr/local/include/glog/vlog_is_on.h \
- /home/colacat/KuiperLLama/kuiper/include/tensor/tensor.h \
+ /home/colacat/maomao_infer/kuiper/include/tensor/tensor.h \
  /usr/local/cuda/include/driver_types.h \
  /usr/local/cuda/include/crt/host_defines.h \
  /usr/local/cuda/include/vector_types.h \
@@ -887,6 +887,6 @@ CMakeFiles/llama.dir/kuiper/source/op/kernels/cpu/emb_kernel.cpp.o: \
  /usr/include/armadillo_bits/newarp_UpperHessenbergEigen_meat.hpp \
  /usr/include/armadillo_bits/newarp_UpperHessenbergQR_meat.hpp \
  /usr/include/armadillo_bits/compiler_setup_post.hpp \
- /home/colacat/KuiperLLama/kuiper/include/base/buffer.h \
- /home/colacat/KuiperLLama/kuiper/include/base/alloc.h \
- /home/colacat/KuiperLLama/kuiper/include/base/base.h
+ /home/colacat/maomao_infer/kuiper/include/base/buffer.h \
+ /home/colacat/maomao_infer/kuiper/include/base/alloc.h \
+ /home/colacat/maomao_infer/kuiper/include/base/base.h

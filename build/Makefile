@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/colacat/KuiperLLama
+CMAKE_SOURCE_DIR = /home/colacat/maomao_infer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/colacat/KuiperLLama/build
+CMAKE_BINARY_DIR = /home/colacat/maomao_infer/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,9 +87,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/colacat/KuiperLLama/build/CMakeFiles /home/colacat/KuiperLLama/build//CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/colacat/maomao_infer/build/CMakeFiles /home/colacat/maomao_infer/build//CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/colacat/KuiperLLama/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/colacat/maomao_infer/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -274,6 +274,126 @@ kuiper/source/base/buffer.s: kuiper/source/base/buffer.cpp.s
 kuiper/source/base/buffer.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/llama.dir/build.make CMakeFiles/llama.dir/kuiper/source/base/buffer.cpp.s
 .PHONY : kuiper/source/base/buffer.cpp.s
+
+kuiper/source/base/m_alloc.o: kuiper/source/base/m_alloc.cpp.o
+.PHONY : kuiper/source/base/m_alloc.o
+
+# target to build an object file
+kuiper/source/base/m_alloc.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/llama.dir/build.make CMakeFiles/llama.dir/kuiper/source/base/m_alloc.cpp.o
+.PHONY : kuiper/source/base/m_alloc.cpp.o
+
+kuiper/source/base/m_alloc.i: kuiper/source/base/m_alloc.cpp.i
+.PHONY : kuiper/source/base/m_alloc.i
+
+# target to preprocess a source file
+kuiper/source/base/m_alloc.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/llama.dir/build.make CMakeFiles/llama.dir/kuiper/source/base/m_alloc.cpp.i
+.PHONY : kuiper/source/base/m_alloc.cpp.i
+
+kuiper/source/base/m_alloc.s: kuiper/source/base/m_alloc.cpp.s
+.PHONY : kuiper/source/base/m_alloc.s
+
+# target to generate assembly for a file
+kuiper/source/base/m_alloc.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/llama.dir/build.make CMakeFiles/llama.dir/kuiper/source/base/m_alloc.cpp.s
+.PHONY : kuiper/source/base/m_alloc.cpp.s
+
+kuiper/source/base/m_alloc_cpu.o: kuiper/source/base/m_alloc_cpu.cpp.o
+.PHONY : kuiper/source/base/m_alloc_cpu.o
+
+# target to build an object file
+kuiper/source/base/m_alloc_cpu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/llama.dir/build.make CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cpu.cpp.o
+.PHONY : kuiper/source/base/m_alloc_cpu.cpp.o
+
+kuiper/source/base/m_alloc_cpu.i: kuiper/source/base/m_alloc_cpu.cpp.i
+.PHONY : kuiper/source/base/m_alloc_cpu.i
+
+# target to preprocess a source file
+kuiper/source/base/m_alloc_cpu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/llama.dir/build.make CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cpu.cpp.i
+.PHONY : kuiper/source/base/m_alloc_cpu.cpp.i
+
+kuiper/source/base/m_alloc_cpu.s: kuiper/source/base/m_alloc_cpu.cpp.s
+.PHONY : kuiper/source/base/m_alloc_cpu.s
+
+# target to generate assembly for a file
+kuiper/source/base/m_alloc_cpu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/llama.dir/build.make CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cpu.cpp.s
+.PHONY : kuiper/source/base/m_alloc_cpu.cpp.s
+
+kuiper/source/base/m_alloc_cu.o: kuiper/source/base/m_alloc_cu.cpp.o
+.PHONY : kuiper/source/base/m_alloc_cu.o
+
+# target to build an object file
+kuiper/source/base/m_alloc_cu.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/llama.dir/build.make CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cu.cpp.o
+.PHONY : kuiper/source/base/m_alloc_cu.cpp.o
+
+kuiper/source/base/m_alloc_cu.i: kuiper/source/base/m_alloc_cu.cpp.i
+.PHONY : kuiper/source/base/m_alloc_cu.i
+
+# target to preprocess a source file
+kuiper/source/base/m_alloc_cu.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/llama.dir/build.make CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cu.cpp.i
+.PHONY : kuiper/source/base/m_alloc_cu.cpp.i
+
+kuiper/source/base/m_alloc_cu.s: kuiper/source/base/m_alloc_cu.cpp.s
+.PHONY : kuiper/source/base/m_alloc_cu.s
+
+# target to generate assembly for a file
+kuiper/source/base/m_alloc_cu.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/llama.dir/build.make CMakeFiles/llama.dir/kuiper/source/base/m_alloc_cu.cpp.s
+.PHONY : kuiper/source/base/m_alloc_cu.cpp.s
+
+kuiper/source/base/m_base.o: kuiper/source/base/m_base.cpp.o
+.PHONY : kuiper/source/base/m_base.o
+
+# target to build an object file
+kuiper/source/base/m_base.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/llama.dir/build.make CMakeFiles/llama.dir/kuiper/source/base/m_base.cpp.o
+.PHONY : kuiper/source/base/m_base.cpp.o
+
+kuiper/source/base/m_base.i: kuiper/source/base/m_base.cpp.i
+.PHONY : kuiper/source/base/m_base.i
+
+# target to preprocess a source file
+kuiper/source/base/m_base.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/llama.dir/build.make CMakeFiles/llama.dir/kuiper/source/base/m_base.cpp.i
+.PHONY : kuiper/source/base/m_base.cpp.i
+
+kuiper/source/base/m_base.s: kuiper/source/base/m_base.cpp.s
+.PHONY : kuiper/source/base/m_base.s
+
+# target to generate assembly for a file
+kuiper/source/base/m_base.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/llama.dir/build.make CMakeFiles/llama.dir/kuiper/source/base/m_base.cpp.s
+.PHONY : kuiper/source/base/m_base.cpp.s
+
+kuiper/source/base/m_buffer.o: kuiper/source/base/m_buffer.cpp.o
+.PHONY : kuiper/source/base/m_buffer.o
+
+# target to build an object file
+kuiper/source/base/m_buffer.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/llama.dir/build.make CMakeFiles/llama.dir/kuiper/source/base/m_buffer.cpp.o
+.PHONY : kuiper/source/base/m_buffer.cpp.o
+
+kuiper/source/base/m_buffer.i: kuiper/source/base/m_buffer.cpp.i
+.PHONY : kuiper/source/base/m_buffer.i
+
+# target to preprocess a source file
+kuiper/source/base/m_buffer.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/llama.dir/build.make CMakeFiles/llama.dir/kuiper/source/base/m_buffer.cpp.i
+.PHONY : kuiper/source/base/m_buffer.cpp.i
+
+kuiper/source/base/m_buffer.s: kuiper/source/base/m_buffer.cpp.s
+.PHONY : kuiper/source/base/m_buffer.s
+
+# target to generate assembly for a file
+kuiper/source/base/m_buffer.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/llama.dir/build.make CMakeFiles/llama.dir/kuiper/source/base/m_buffer.cpp.s
+.PHONY : kuiper/source/base/m_buffer.cpp.s
 
 kuiper/source/base/unicode-data.o: kuiper/source/base/unicode-data.cpp.o
 .PHONY : kuiper/source/base/unicode-data.o
@@ -1165,6 +1285,21 @@ help:
 	@echo "... kuiper/source/base/buffer.o"
 	@echo "... kuiper/source/base/buffer.i"
 	@echo "... kuiper/source/base/buffer.s"
+	@echo "... kuiper/source/base/m_alloc.o"
+	@echo "... kuiper/source/base/m_alloc.i"
+	@echo "... kuiper/source/base/m_alloc.s"
+	@echo "... kuiper/source/base/m_alloc_cpu.o"
+	@echo "... kuiper/source/base/m_alloc_cpu.i"
+	@echo "... kuiper/source/base/m_alloc_cpu.s"
+	@echo "... kuiper/source/base/m_alloc_cu.o"
+	@echo "... kuiper/source/base/m_alloc_cu.i"
+	@echo "... kuiper/source/base/m_alloc_cu.s"
+	@echo "... kuiper/source/base/m_base.o"
+	@echo "... kuiper/source/base/m_base.i"
+	@echo "... kuiper/source/base/m_base.s"
+	@echo "... kuiper/source/base/m_buffer.o"
+	@echo "... kuiper/source/base/m_buffer.i"
+	@echo "... kuiper/source/base/m_buffer.s"
 	@echo "... kuiper/source/base/unicode-data.o"
 	@echo "... kuiper/source/base/unicode-data.i"
 	@echo "... kuiper/source/base/unicode-data.s"

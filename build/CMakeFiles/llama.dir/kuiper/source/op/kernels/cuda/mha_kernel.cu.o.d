@@ -1,4 +1,4 @@
-CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/mha_kernel.cu.o : /home/colacat/KuiperLLama/kuiper/source/op/kernels/cuda/mha_kernel.cu \
+CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/mha_kernel.cu.o : /home/colacat/maomao_infer/kuiper/source/op/kernels/cuda/mha_kernel.cu \
     /usr/include/stdc-predef.h \
     /usr/local/cuda/include/cuda_runtime.h \
     /usr/local/cuda/include/crt/host_config.h \
@@ -155,7 +155,7 @@ CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/mha_kernel.cu.o : /home/colac
     /usr/include/c++/11/bits/move.h \
     /usr/include/c++/11/type_traits \
     /usr/include/c++/11/initializer_list \
-    /home/colacat/KuiperLLama/kuiper/include/base/cuda_config.h \
+    /home/colacat/maomao_infer/kuiper/include/base/cuda_config.h \
     /usr/local/cuda/include/cublas_v2.h \
     /usr/local/cuda/include/cublas_api.h \
     /usr/lib/gcc/x86_64-linux-gnu/11/include/stdint.h \
@@ -170,7 +170,7 @@ CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/mha_kernel.cu.o : /home/colac
     /usr/local/cuda/include/cuda_fp16.hpp \
     /usr/local/cuda/include/cuda_bf16.h \
     /usr/local/cuda/include/cuda_bf16.hpp \
-    /home/colacat/KuiperLLama/kuiper/include/tensor/tensor.h \
+    /home/colacat/maomao_infer/kuiper/include/tensor/tensor.h \
     /usr/local/include/glog/logging.h \
     /usr/include/c++/11/atomic \
     /usr/include/c++/11/bits/atomic_base.h \
@@ -986,9 +986,9 @@ CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/mha_kernel.cu.o : /home/colac
     /usr/include/armadillo_bits/newarp_UpperHessenbergEigen_meat.hpp \
     /usr/include/armadillo_bits/newarp_UpperHessenbergQR_meat.hpp \
     /usr/include/armadillo_bits/compiler_setup_post.hpp \
-    /home/colacat/KuiperLLama/kuiper/include/base/base.h \
-    /home/colacat/KuiperLLama/kuiper/include/base/buffer.h \
-    /home/colacat/KuiperLLama/kuiper/include/base/alloc.h \
+    /home/colacat/maomao_infer/kuiper/include/base/base.h \
+    /home/colacat/maomao_infer/kuiper/include/base/buffer.h \
+    /home/colacat/maomao_infer/kuiper/include/base/alloc.h \
     /usr/local/cuda/include/cub/cub.cuh \
     /usr/local/cuda/include/cub/config.cuh \
     /usr/local/cuda/include/cuda/__cccl_config \
@@ -1609,6 +1609,6 @@ CMakeFiles/llama.dir/kuiper/source/op/kernels/cuda/mha_kernel.cu.o : /home/colac
     /usr/include/c++/11/set \
     /usr/include/c++/11/bits/stl_set.h \
     /usr/include/c++/11/bits/stl_multiset.h \
-    /home/colacat/KuiperLLama/kuiper/source/op/kernels/cuda/mha_kernel.cuh \
+    /home/colacat/maomao_infer/kuiper/source/op/kernels/cuda/mha_kernel.cuh \
     /usr/include/c++/11/cfloat \
     /usr/lib/gcc/x86_64-linux-gnu/11/include/float.h

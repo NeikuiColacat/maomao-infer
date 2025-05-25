@@ -1,7 +1,7 @@
 CMakeFiles/llama.dir/kuiper/source/base/unicode-data.cpp.o: \
- /home/colacat/KuiperLLama/kuiper/source/base/unicode-data.cpp \
+ /home/colacat/maomao_infer/kuiper/source/base/unicode-data.cpp \
  /usr/include/stdc-predef.h \
- /home/colacat/KuiperLLama/kuiper/include/base/unicode-data.h \
+ /home/colacat/maomao_infer/kuiper/include/base/unicode-data.h \
  /usr/include/c++/11/cstdint \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \

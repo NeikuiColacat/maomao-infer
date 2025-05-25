@@ -5,13 +5,13 @@
 # compile CXX with /usr/bin/g++
 CUDA_DEFINES = -DGLOG_USE_GLOG_EXPORT
 
-CUDA_INCLUDES = -I/home/colacat/KuiperLLama/test/../kuiper/include -I/home/colacat/KuiperLLama/kuiper/include
+CUDA_INCLUDES = -I/home/colacat/maomao_infer/test/../kuiper/include -I/home/colacat/maomao_infer/kuiper/include
 
 CUDA_FLAGS = -g --generate-code=arch=compute_86,code=[compute_86,sm_86] -std=c++14
 
 CXX_DEFINES = -DGLOG_USE_GLOG_EXPORT
 
-CXX_INCLUDES = -I/home/colacat/KuiperLLama/test/../kuiper/include -I/usr/local/cuda/include -I/home/colacat/KuiperLLama/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include
+CXX_INCLUDES = -I/home/colacat/maomao_infer/test/../kuiper/include -I/usr/local/cuda/include -I/home/colacat/maomao_infer/kuiper/include -I/usr/local/cuda/targets/x86_64-linux/include
 
 CXX_FLAGS = -g -std=gnu++17
 
