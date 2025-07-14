@@ -24,7 +24,7 @@ TEST(test_load, load_model_config) {
 }
 
 TEST(test_load, load_model_weight) {
-  std::string model_path = "../../tmp/test.bin";
+  std::string model_path = "./tmp/test.bin";
   int32_t fd = open(model_path.data(), O_RDONLY);
   ASSERT_NE(fd, -1);
 

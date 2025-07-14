@@ -1,6 +1,6 @@
 #include "base/base.h"
-#include <string>
 
+#include <string>
 namespace base {
 Status::Status(int code, std::string err_message)
     : code_(code), message_(std::move(err_message)) {}

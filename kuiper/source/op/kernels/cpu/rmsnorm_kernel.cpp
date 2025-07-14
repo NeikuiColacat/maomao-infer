@@ -21,7 +21,7 @@ void rmsnorm_kernel_cpu(const tensor::Tensor& input, const tensor::Tensor& weigh
   arma::fvec out_tensor(const_cast<float*>(out_ptr), dim, false, true);
   arma::fvec wei_tensor(const_cast<float*>(wei_ptr), dim, false, true);
 
-#ifdef QWEN2_SUPPORT
+#if defined(QWEN2_SUPPORT) || defined(QWEN3_SUPPORT)
   const float eps = 1e-6f;
 #else
   const float eps = 1e-5f;

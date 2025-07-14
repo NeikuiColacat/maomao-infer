@@ -40,7 +40,7 @@ void rope_kernel_cpu(int32_t dim, int32_t kv_dim, int32_t head_size, const tenso
     }
   }
 }
-#elif defined (QWEN2_SUPPORT)
+#elif defined (QWEN2_SUPPORT) || defined (QWEN3_SUPPORT)
 void sin_cos_cache_calc_cpu(int head_size, int max_seq_len, float* sin_cache, float* cos_cache) {
   for (int pos = 0; pos < max_seq_len; ++pos) {
     for (int head_dim = 0; head_dim < head_size; ++head_dim) {

@@ -91,14 +91,14 @@ enum class TokenizerType {
 };
 
 class Status {
-public:
+ public:
   Status(int code = StatusCode::kSuccess, std::string err_message = "");
 
-  Status(const Status &other) = default;
+  Status(const Status& other) = default;
 
-  Status &operator=(const Status &other) = default;
+  Status& operator=(const Status& other) = default;
 
-  Status &operator=(int code);
+  Status& operator=(int code);
 
   bool operator==(int code) const;
 
@@ -110,11 +110,11 @@ public:
 
   int32_t get_err_code() const;
 
-  const std::string &get_err_msg() const;
+  const std::string& get_err_msg() const;
 
-  void set_err_msg(const std::string &err_msg);
+  void set_err_msg(const std::string& err_msg);
 
-private:
+ private:
   int code_ = StatusCode::kSuccess;
   std::string message_;
 };

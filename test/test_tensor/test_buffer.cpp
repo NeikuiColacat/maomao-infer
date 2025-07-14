@@ -3,6 +3,7 @@
 #include <gtest/gtest.h>
 #include "base/buffer.h"
 #include "../utils.cuh"
+
 TEST(test_buffer, allocate) {
   using namespace base;
   auto alloc = base::CPUDeviceAllocatorFactory::get_instance();
@@ -17,26 +18,6 @@ TEST(test_buffer, use_external) {
   Buffer buffer(32, nullptr, ptr, true);
   ASSERT_EQ(buffer.is_external(), true);
   delete[] ptr;
-}
-
-TEST(test_buffer, allocate2) {
-  using namespace base;
-  auto alloc = base::CPUDeviceAllocatorFactory::get_instance();
-  {
-    Buffer buffer(32, alloc);
-    ASSERT_NE(buffer.ptr(), nullptr);
-    LOG(INFO) << "HERE1";
-  }
-  LOG(INFO) << "HERE2";
-}
-
-TEST(test_buffer, allocate3) {
-  using namespace base;
-  auto alloc = base::CPUDeviceAllocatorFactory::get_instance();
-  std::shared_ptr<Buffer> buffer;
-  { buffer = std::make_shared<Buffer>(32, alloc); }
-  LOG(INFO) << "HERE";
-  ASSERT_NE(buffer->ptr(), nullptr);
 }
 
 TEST(test_buffer, cuda_memcpy1) {

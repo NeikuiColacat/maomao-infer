@@ -1,9 +1,0 @@
-/home/colacat/maomao_infer/build/CMakeFiles/llama.dir
-/home/colacat/maomao_infer/build/CMakeFiles/edit_cache.dir
-/home/colacat/maomao_infer/build/CMakeFiles/rebuild_cache.dir
-/home/colacat/maomao_infer/build/test/CMakeFiles/test_llm.dir
-/home/colacat/maomao_infer/build/test/CMakeFiles/edit_cache.dir
-/home/colacat/maomao_infer/build/test/CMakeFiles/rebuild_cache.dir
-/home/colacat/maomao_infer/build/demo/CMakeFiles/llama_infer.dir
-/home/colacat/maomao_infer/build/demo/CMakeFiles/edit_cache.dir
-/home/colacat/maomao_infer/build/demo/CMakeFiles/rebuild_cache.dir

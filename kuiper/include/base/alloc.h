@@ -12,7 +12,7 @@ enum class MemcpyKind {
 };
 
 class DeviceAllocator {
-public:
+ public:
   explicit DeviceAllocator(DeviceType device_type) : device_type_(device_type) {}
 
   virtual DeviceType device_type() const { return device_type_; }
@@ -27,7 +27,7 @@ public:
 
   virtual void memset_zero(void* ptr, size_t byte_size, void* stream, bool need_sync = false);
 
-private:
+ private:
   DeviceType device_type_ = DeviceType::kDeviceUnknown;
 };
 

@@ -47,7 +47,7 @@ __global__ void sin_cos_calc(int head_size, int max_seq_len, float* sin_cache, f
     *(cos_cache + pos * head_size + head_dim) = fcr;
   }
 }
-#elif defined (QWEN2_SUPPORT)
+#elif defined (QWEN2_SUPPORT) || defined (QWEN3_SUPPORT)
 __global__ void rope_kernel_cu_fp32(int pos, int dim, int kv_dim, int head_size,
                                     const float* input_q, const float* input_k,
                                     const float* sin_cache, const float* cos_cache) {

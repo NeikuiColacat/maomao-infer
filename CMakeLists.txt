@@ -1,8 +1,9 @@
 cmake_minimum_required(VERSION 3.16)
 
-
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
-set(CMAKE_CUDA_COMPILER /usr/local/cuda/bin/nvcc)  # Linux
+
+# Set the CUDA compiler path or name
+set(CMAKE_CUDA_COMPILER "/usr/local/cuda/bin/nvcc")
 
 project(llama_infer CXX CUDA)
 include(cmake/cuda.cmake)
@@ -11,7 +12,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CUDA_STANDARD_REQUIRED ON)
 set(CMAKE_CUDA_STANDARD 14)
-
 
 option(LLAMA3_SUPPORT OFF)
 if (LLAMA3_SUPPORT)
@@ -22,6 +22,12 @@ option(QWEN2_SUPPORT OFF)
 if (QWEN2_SUPPORT)
   message(STATUS "QWEN2 SUPPORT")
   add_definitions(-DQWEN2_SUPPORT)
+endif()
+
+option(QWEN3_SUPPORT OFF)
+if (QWEN3_SUPPORT)
+  message(STATUS "QWEN3 SUPPORT")
+  add_definitions(-DQWEN3_SUPPORT)
 endif()
 # ---- Add dependencies via CPM ----
 # see https://github.com/TheLartians/CPM.cmake for more info
@@ -57,7 +63,7 @@ if(USE_CPM)
   )
   find_package(sentencepiece REQUIRED)
 
-  if (LLAMA3_SUPPORT OR QWEN2_SUPPORT)
+  if (LLAMA3_SUPPORT OR QWEN2_SUPPORT OR QWEN3_SUPPORT)
     CPMAddPackage(
         NAME absl
         GITHUB_REPOSITORY abseil/abseil-cpp
@@ -110,9 +116,3 @@ endif()
 set_target_properties(llama PROPERTIES CUDA_SEPARABLE_COMPILATION ON)
 add_subdirectory(test)
 add_subdirectory(demo)
-
-### ERRATA
-enable_language(CUDA)
-include_directories(/usr/local/cuda/include)
-find_package(CUDAToolkit REQUIRED)
-#### ERRATA
