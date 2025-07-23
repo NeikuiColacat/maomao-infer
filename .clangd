@@ -1,0 +1,5 @@
+CompileFlags:
+  Remove:
+    - "-forward-unknown-to-host-compiler"
+    - "--generate-code=arch=compute_86,code=[compute_86,sm_86]"
+    - "-Xcompiler=-fPIC"
